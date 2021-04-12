@@ -20,9 +20,26 @@ class Atom:
         return 4*const.EPSILON*((const.SIGMA/distance)**12\
             - (const.SIGMA/distance)**6)
 
+    def pair_force(self, atom2):
+        """ returns force vector between a pair """
+        force_x = self.x_cor - atom2.x_cor
+        force_y = self.y_cor - atom2.y_cor
+        force_z = self.z_cor - atom2.z_cor
+        distance = self.distance_sq(atom2)**0.5
+        factor = (24*const.EPSILON/(distance**2))*(2*((const.SIGMA\
+            /distance)**12) - (const.SIGMA/distance)**6)
+
+        return force_x*factor, force_y*factor, force_z*factor
+
+    def apply_pbcondition(self):
+        """ for applying periodic boundary condition, such that atom remains in the box """
+        self.x_cor = max(0.0, min(const.LEN, self.x_cor))
+        self.y_cor = max(0.0, min(const.LEN, self.y_cor))
+        self.z_cor = max(0.0, min(const.LEN, self.z_cor))
+
     def __str__(self):
         return "Ar "+str(self.x_cor)+" "+str(self.y_cor)+" "\
-    			+str(self.z_cor)
+        	    +str(self.z_cor)
 
 def total_potential_energy(atoms):
     """ function for calculating total potential energy """
@@ -36,11 +53,10 @@ def total_potential_energy(atoms):
 
     return total_energy
 
-def print_atoms(atoms, f=None):
+def print_atoms(atoms, file=None):
     """ A function to print all atoms """
     for each_atom in atoms:
-        if f == None:
+        if file is None:
             print(each_atom)
         else:
-            print(each_atom, file=f)
-
+            print(each_atom, file=file)
