@@ -24,7 +24,23 @@ class Atom:
         return "Ar "+str(self.x_cor)+" "+str(self.y_cor)+" "\
     			+str(self.z_cor)
 
-def print_atoms(atoms):
+def total_potential_energy(atoms):
+    """ function for calculating total potential energy """
+    total_energy = 0.0
+    for i, atom1 in enumerate(atoms):
+        for j, atom2 in enumerate(atoms):
+            if j <= i:
+                continue
+
+            total_energy += atom1.pair_potent_energy(atom2)
+
+    return total_energy
+
+def print_atoms(atoms, f=None):
     """ A function to print all atoms """
     for each_atom in atoms:
-        print(each_atom)
+        if f == None:
+            print(each_atom)
+        else:
+            print(each_atom, file=f)
+

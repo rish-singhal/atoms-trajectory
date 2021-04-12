@@ -1,6 +1,6 @@
 """ helper functions """
 import random
-from atom import Atom
+from atom import Atom, total_potential_energy
 import constants as const
 
 def generate_config():
@@ -30,17 +30,8 @@ def generate_config():
 
     return atoms
 
-def total_potential_energy(atoms):
-    """ function for calculating total potential energy """
-    total_energy = 0.0
-    for i, atom1 in enumerate(atoms):
-        for j, atom2 in enumerate(atoms):
-            if j <= i: continue
-
-            total_energy += atom1.pair_potential_energy(atom2)
-
-    return total_energy
-
-
-
 def minimize_potential_energy(atoms):
+    # print initial total potential energy
+    print("-------------")
+    print("initial potential energy:", round(total_potential_energy(atoms), 5), "kcal/mol")
+    print("-------------\n")
