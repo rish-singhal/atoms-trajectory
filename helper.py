@@ -1,83 +1,46 @@
-""" helper functions """
+""" helper functions to support main functions"""
+import math
 import random
-from atom import Atom, total_potential_energy
-import constants as const
+import scipy.stats as stats
 
-def generate_config():
-    """ generating initial configuration """
+## TODO: 
+## 1. update vel_data to box-muller algorithm
 
-    atoms = [] # List of atoms
-    # generate 108 atoms with distance constraints
-    for _ in range(const.N):
-        # randomly generate coordinates till it satisfy
-        #		distance constraints
-        while True:
-            x_cor = random.uniform(0.0, const.LEN)
-            y_cor = random.uniform(0.0, const.LEN)
-            z_cor = random.uniform(0.0, const.LEN)
-            new_atom = Atom(x_cor, y_cor, z_cor)
+def generate_random_vector():
+    """ to generate random unit vector """
+    phi = random.uniform(0.0, math.pi*2)
+    theta = math.acos(random.uniform(-1.0, 1.0))
 
-            check = 1
-            for atom in atoms:
-        	    # enforcing distance constraint
-                if (atom.distance_sq(new_atom))**0.5 < const.MIN_DIST:
-                    check = 0
-                    break
+    return math.sin(theta)*math.cos(phi), math.sin(theta)*math.sin(phi),\
+        math.cos(theta)
 
-            if check:
-                atoms.append(new_atom)
-                break
+def total_potential_energy(atoms):
+    """ function for calculating total potential energy """
+    total_energy = 0.0
+    for i, atom1 in enumerate(atoms):
+        for j, atom2 in enumerate(atoms):
+            if j <= i:
+                continue
 
-    return atoms
+            total_energy += atom1.pair_potent_energy(atom2)
 
-def minimize_potential_energy(atoms):
-    """ to minimize potential energy via gradient descent """
-    # print initial total potential energy
-    print("Starting Gradient Descent....")
+    return total_energy
 
-    prev_potential_energy = total_potential_energy(atoms)
+def print_atoms(atoms, file=None):
+    """ A function to print all atoms """
+    for each_atom in atoms:
+        if file is None:
+            print(each_atom)
+        else:
+            print(each_atom, file=file)
 
-    print("-------------")
-    print("initial potential energy:", round(prev_potential_energy, 5), "kcal/mol")
-    print("-------------\n")
+def sample_init_velocities(atoms):
+    """ function to sample initial velocities from maxwell-boltzman distribution """
+    ### TODO: update to box-muller algorithm
+    vel_data = stats.maxwell.rvs(size=len(atoms))
 
-    iteration = 1
-    # performing gradient descent
-    while True:
-        for i, atom in enumerate(atoms):
-            # initializing total force on ith atom
-            total_force_x, total_force_y, total_force_z = 0.0, 0.0, 0.0
-            for j, atom2 in enumerate(atoms):
-                if i == j:
-                    continue
-                # summing up all the forces
-                force_x, force_y, force_z = atom.pair_force(atom2)
-                total_force_x += force_x
-                total_force_y += force_y
-                total_force_z += force_z
-
-            # updating cordinates according to descent equation
-            atom.x_cor += const.ETA*total_force_x
-            atom.y_cor += const.ETA*total_force_y
-            atom.z_cor += const.ETA*total_force_z
-
-            atom.apply_pbcondition()
-
-        # calculating updated potential energy
-        new_potential_energy = total_potential_energy(atoms)
-
-        print("Interation", iteration)
-        print("-------------")
-        print("potential energy:", round(new_potential_energy, 5), "kcal/mol")
-        print("-------------\n")
-
-        if abs(prev_potential_energy - new_potential_energy) < const.DELTA:
-            print("Diff:", new_potential_energy - prev_potential_energy)
-            print("Ending gradient descent as difference it is less than DELTA")
-            break
-
-        # update iteration value, prev_potential_energy
-        iteration += 1
-        prev_potential_energy = new_potential_energy
-
+    for i, atom in enumerate(atoms):
+        x_vec, y_vec, z_vec = generate_random_vector()
+        atom.x_vel, atom.y_vel, atom.z_vel = vel_data[i]*x_vec,\
+                         vel_data[i]*y_vec, vel_data[i]*z_vec
     return atoms

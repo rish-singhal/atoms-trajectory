@@ -1,5 +1,5 @@
 """ Atom class """
-import constants as const
+import variables as const
 
 class Atom:
     """ class for representing an atom """
@@ -7,6 +7,9 @@ class Atom:
         self.x_cor = x_cor
         self.y_cor = y_cor
         self.z_cor = z_cor
+        self.x_vel = 0.0
+        self.y_vel = 0.0
+        self.z_vel = 0.0
 
     def distance_sq(self, atom2):
         """ for calculating square distance between two atoms """
@@ -40,23 +43,3 @@ class Atom:
     def __str__(self):
         return "Ar "+str(self.x_cor)+" "+str(self.y_cor)+" "\
         	    +str(self.z_cor)
-
-def total_potential_energy(atoms):
-    """ function for calculating total potential energy """
-    total_energy = 0.0
-    for i, atom1 in enumerate(atoms):
-        for j, atom2 in enumerate(atoms):
-            if j <= i:
-                continue
-
-            total_energy += atom1.pair_potent_energy(atom2)
-
-    return total_energy
-
-def print_atoms(atoms, file=None):
-    """ A function to print all atoms """
-    for each_atom in atoms:
-        if file is None:
-            print(each_atom)
-        else:
-            print(each_atom, file=file)
