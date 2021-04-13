@@ -47,15 +47,7 @@ def minimize_potential_energy(atoms):
     while True:
         for i, atom in enumerate(atoms):
             # initializing total force on ith atom
-            total_force_x, total_force_y, total_force_z = 0.0, 0.0, 0.0
-            for j, atom2 in enumerate(atoms):
-                if i == j:
-                    continue
-                # summing up all the forces
-                force_x, force_y, force_z = atom.pair_force(atom2)
-                total_force_x += force_x
-                total_force_y += force_y
-                total_force_z += force_z
+            total_force_x, total_force_y, total_force_z = helper.total_force(i, atoms)
 
             # updating cordinates according to descent equation
             atom.x_cor += const.ETA*total_force_x
@@ -86,5 +78,42 @@ def minimize_potential_energy(atoms):
 def generate_frames(atoms):
     frames = []
     frames.append(atoms)
+    prev_frame = atoms
     for _ in range(const.ITERATIONS):
+        new_frame = prev_frame
+        old_force_x = list()
+        old_force_y = list()
+        old_force_z = list()
         
+        for i, atom in enumerate(prev_frame):
+            # initializing total force on ith atom
+            total_force_x, total_force_y, total_force_z = helper.total_force(i, prev_frame)
+
+            # update positions
+            new_frame[i].x_cor = prev_frame[i].x_cor + prev_frame[i].x_vel*const.TIME_STEP\
+                         + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2)
+            new_frame[i].y_cor = prev_frame[i].y_cor + prev_frame[i].y_vel*const.TIME_STEP\
+                         + (total_force_y/(2*const.MASS))*(const.TIME_STEP**2)
+            new_frame[i].z_cor = prev_frame[i].z_cor + prev_frame[i].z_vel*const.TIME_STEP\
+                         + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2)
+
+            old_force_x.append(total_force_x)
+            old_force_x.append(total_force_y)
+            old_force_x.append(total_force_z)
+        
+        for i, atom in enumerate(prev_frame):
+            # initializing total force on ith atom
+            total_force_x, total_force_y, total_force_z = helper.total_force(i, new_frame)
+
+            # update velocities
+            new_frame[i].x_vel = prev_frame[i].x_vel +\
+                         + ((old_force_x[i] + total_force_x)/(2*const.MASS))*(const.TIME_STEP)
+            new_frame[i].y_vel = prev_frame[i].y_vel + prev_frame[i].y_vel*const.TIME_STEP\
+                         + ((old_force_y[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
+            new_frame[i].z_vel = prev_frame[i].z_vel + prev_frame[i].z_vel*const.TIME_STEP\
+                         + ((old_force_z[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
+
+        frames.append(new_frame)
+        prev_frame = new_frame
+
+    return frames

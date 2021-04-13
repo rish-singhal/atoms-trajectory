@@ -44,3 +44,16 @@ def sample_init_velocities(atoms):
         atom.x_vel, atom.y_vel, atom.z_vel = vel_data[i]*x_vec,\
                          vel_data[i]*y_vec, vel_data[i]*z_vec
     return atoms
+
+def total_force(atom_num, atoms):
+    total_force_x, total_force_y, total_force_z = 0.0, 0.0, 0.0
+    for j, atom2 in enumerate(atoms):
+        if atom_num == j:
+            continue
+        # summing up all the forces
+        force_x, force_y, force_z = atom.pair_force(atom2)
+        total_force_x += force_x
+        total_force_y += force_y
+        total_force_z += force_z
+    
+    return total_force_x, total_force_y, total_force_z
