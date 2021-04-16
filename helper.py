@@ -47,6 +47,7 @@ def sample_init_velocities(atoms):
 
 def total_force(atom_num, atoms):
     total_force_x, total_force_y, total_force_z = 0.0, 0.0, 0.0
+    atom = atoms[atom_num]
     for j, atom2 in enumerate(atoms):
         if atom_num == j:
             continue

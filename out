@@ -1,0 +1,5322 @@
+Starting Gradient Descent....
+-------------
+initial potential energy: -61.35613 kcal/mol
+-------------
+
+Interation 1
+-------------
+potential energy: -66.68455 kcal/mol
+-------------
+
+Interation 2
+-------------
+potential energy: -68.37721 kcal/mol
+-------------
+
+Interation 3
+-------------
+potential energy: -69.54281 kcal/mol
+-------------
+
+Interation 4
+-------------
+potential energy: -70.51408 kcal/mol
+-------------
+
+Interation 5
+-------------
+potential energy: -71.3912 kcal/mol
+-------------
+
+Interation 6
+-------------
+potential energy: -72.21525 kcal/mol
+-------------
+
+Interation 7
+-------------
+potential energy: -73.00627 kcal/mol
+-------------
+
+Interation 8
+-------------
+potential energy: -73.77481 kcal/mol
+-------------
+
+Interation 9
+-------------
+potential energy: -74.52686 kcal/mol
+-------------
+
+Interation 10
+-------------
+potential energy: -75.26605 kcal/mol
+-------------
+
+Interation 11
+-------------
+potential energy: -75.9948 kcal/mol
+-------------
+
+Interation 12
+-------------
+potential energy: -76.71482 kcal/mol
+-------------
+
+Interation 13
+-------------
+potential energy: -77.42742 kcal/mol
+-------------
+
+Interation 14
+-------------
+potential energy: -78.13362 kcal/mol
+-------------
+
+Interation 15
+-------------
+potential energy: -78.83427 kcal/mol
+-------------
+
+Interation 16
+-------------
+potential energy: -79.52999 kcal/mol
+-------------
+
+Interation 17
+-------------
+potential energy: -80.22119 kcal/mol
+-------------
+
+Interation 18
+-------------
+potential energy: -80.908 kcal/mol
+-------------
+
+Interation 19
+-------------
+potential energy: -81.59026 kcal/mol
+-------------
+
+Interation 20
+-------------
+potential energy: -82.26747 kcal/mol
+-------------
+
+Interation 21
+-------------
+potential energy: -82.93894 kcal/mol
+-------------
+
+Interation 22
+-------------
+potential energy: -83.60386 kcal/mol
+-------------
+
+Interation 23
+-------------
+potential energy: -84.26146 kcal/mol
+-------------
+
+Interation 24
+-------------
+potential energy: -84.91111 kcal/mol
+-------------
+
+Interation 25
+-------------
+potential energy: -85.55239 kcal/mol
+-------------
+
+Interation 26
+-------------
+potential energy: -86.18501 kcal/mol
+-------------
+
+Interation 27
+-------------
+potential energy: -86.80877 kcal/mol
+-------------
+
+Interation 28
+-------------
+potential energy: -87.42349 kcal/mol
+-------------
+
+Interation 29
+-------------
+potential energy: -88.02903 kcal/mol
+-------------
+
+Interation 30
+-------------
+potential energy: -88.62533 kcal/mol
+-------------
+
+Interation 31
+-------------
+potential energy: -89.21255 kcal/mol
+-------------
+
+Interation 32
+-------------
+potential energy: -89.79105 kcal/mol
+-------------
+
+Interation 33
+-------------
+potential energy: -90.3614 kcal/mol
+-------------
+
+Interation 34
+-------------
+potential energy: -90.9243 kcal/mol
+-------------
+
+Interation 35
+-------------
+potential energy: -91.48046 kcal/mol
+-------------
+
+Interation 36
+-------------
+potential energy: -92.03055 kcal/mol
+-------------
+
+Interation 37
+-------------
+potential energy: -92.57518 kcal/mol
+-------------
+
+Interation 38
+-------------
+potential energy: -93.11488 kcal/mol
+-------------
+
+Interation 39
+-------------
+potential energy: -93.65017 kcal/mol
+-------------
+
+Interation 40
+-------------
+potential energy: -94.18152 kcal/mol
+-------------
+
+Interation 41
+-------------
+potential energy: -94.7094 kcal/mol
+-------------
+
+Interation 42
+-------------
+potential energy: -95.23421 kcal/mol
+-------------
+
+Interation 43
+-------------
+potential energy: -95.75629 kcal/mol
+-------------
+
+Interation 44
+-------------
+potential energy: -96.27585 kcal/mol
+-------------
+
+Interation 45
+-------------
+potential energy: -96.79294 kcal/mol
+-------------
+
+Interation 46
+-------------
+potential energy: -97.30743 kcal/mol
+-------------
+
+Interation 47
+-------------
+potential energy: -97.81908 kcal/mol
+-------------
+
+Interation 48
+-------------
+potential energy: -98.3275 kcal/mol
+-------------
+
+Interation 49
+-------------
+potential energy: -98.8323 kcal/mol
+-------------
+
+Interation 50
+-------------
+potential energy: -99.33304 kcal/mol
+-------------
+
+Interation 51
+-------------
+potential energy: -99.8293 kcal/mol
+-------------
+
+Interation 52
+-------------
+potential energy: -100.32065 kcal/mol
+-------------
+
+Interation 53
+-------------
+potential energy: -100.80665 kcal/mol
+-------------
+
+Interation 54
+-------------
+potential energy: -101.28682 kcal/mol
+-------------
+
+Interation 55
+-------------
+potential energy: -101.76074 kcal/mol
+-------------
+
+Interation 56
+-------------
+potential energy: -102.22805 kcal/mol
+-------------
+
+Interation 57
+-------------
+potential energy: -102.68845 kcal/mol
+-------------
+
+Interation 58
+-------------
+potential energy: -103.1417 kcal/mol
+-------------
+
+Interation 59
+-------------
+potential energy: -103.58758 kcal/mol
+-------------
+
+Interation 60
+-------------
+potential energy: -104.02586 kcal/mol
+-------------
+
+Interation 61
+-------------
+potential energy: -104.45634 kcal/mol
+-------------
+
+Interation 62
+-------------
+potential energy: -104.87891 kcal/mol
+-------------
+
+Interation 63
+-------------
+potential energy: -105.29367 kcal/mol
+-------------
+
+Interation 64
+-------------
+potential energy: -105.70084 kcal/mol
+-------------
+
+Interation 65
+-------------
+potential energy: -106.10068 kcal/mol
+-------------
+
+Interation 66
+-------------
+potential energy: -106.49326 kcal/mol
+-------------
+
+Interation 67
+-------------
+potential energy: -106.87837 kcal/mol
+-------------
+
+Interation 68
+-------------
+potential energy: -107.25542 kcal/mol
+-------------
+
+Interation 69
+-------------
+potential energy: -107.62349 kcal/mol
+-------------
+
+Interation 70
+-------------
+potential energy: -107.98146 kcal/mol
+-------------
+
+Interation 71
+-------------
+potential energy: -108.32821 kcal/mol
+-------------
+
+Interation 72
+-------------
+potential energy: -108.66296 kcal/mol
+-------------
+
+Interation 73
+-------------
+potential energy: -108.98564 kcal/mol
+-------------
+
+Interation 74
+-------------
+potential energy: -109.29718 kcal/mol
+-------------
+
+Interation 75
+-------------
+potential energy: -109.59931 kcal/mol
+-------------
+
+Interation 76
+-------------
+potential energy: -109.89415 kcal/mol
+-------------
+
+Interation 77
+-------------
+potential energy: -110.18367 kcal/mol
+-------------
+
+Interation 78
+-------------
+potential energy: -110.46939 kcal/mol
+-------------
+
+Interation 79
+-------------
+potential energy: -110.75231 kcal/mol
+-------------
+
+Interation 80
+-------------
+potential energy: -111.03297 kcal/mol
+-------------
+
+Interation 81
+-------------
+potential energy: -111.31152 kcal/mol
+-------------
+
+Interation 82
+-------------
+potential energy: -111.58783 kcal/mol
+-------------
+
+Interation 83
+-------------
+potential energy: -111.86158 kcal/mol
+-------------
+
+Interation 84
+-------------
+potential energy: -112.13241 kcal/mol
+-------------
+
+Interation 85
+-------------
+potential energy: -112.39996 kcal/mol
+-------------
+
+Interation 86
+-------------
+potential energy: -112.66393 kcal/mol
+-------------
+
+Interation 87
+-------------
+potential energy: -112.92411 kcal/mol
+-------------
+
+Interation 88
+-------------
+potential energy: -113.18035 kcal/mol
+-------------
+
+Interation 89
+-------------
+potential energy: -113.4325 kcal/mol
+-------------
+
+Interation 90
+-------------
+potential energy: -113.68045 kcal/mol
+-------------
+
+Interation 91
+-------------
+potential energy: -113.92412 kcal/mol
+-------------
+
+Interation 92
+-------------
+potential energy: -114.16348 kcal/mol
+-------------
+
+Interation 93
+-------------
+potential energy: -114.39857 kcal/mol
+-------------
+
+Interation 94
+-------------
+potential energy: -114.62954 kcal/mol
+-------------
+
+Interation 95
+-------------
+potential energy: -114.8566 kcal/mol
+-------------
+
+Interation 96
+-------------
+potential energy: -115.08004 kcal/mol
+-------------
+
+Interation 97
+-------------
+potential energy: -115.30019 kcal/mol
+-------------
+
+Interation 98
+-------------
+potential energy: -115.51737 kcal/mol
+-------------
+
+Interation 99
+-------------
+potential energy: -115.73191 kcal/mol
+-------------
+
+Interation 100
+-------------
+potential energy: -115.94407 kcal/mol
+-------------
+
+Interation 101
+-------------
+potential energy: -116.15412 kcal/mol
+-------------
+
+Interation 102
+-------------
+potential energy: -116.36226 kcal/mol
+-------------
+
+Interation 103
+-------------
+potential energy: -116.56866 kcal/mol
+-------------
+
+Interation 104
+-------------
+potential energy: -116.77348 kcal/mol
+-------------
+
+Interation 105
+-------------
+potential energy: -116.97683 kcal/mol
+-------------
+
+Interation 106
+-------------
+potential energy: -117.17879 kcal/mol
+-------------
+
+Interation 107
+-------------
+potential energy: -117.37938 kcal/mol
+-------------
+
+Interation 108
+-------------
+potential energy: -117.57848 kcal/mol
+-------------
+
+Interation 109
+-------------
+potential energy: -117.77589 kcal/mol
+-------------
+
+Interation 110
+-------------
+potential energy: -117.97119 kcal/mol
+-------------
+
+Interation 111
+-------------
+potential energy: -118.16384 kcal/mol
+-------------
+
+Interation 112
+-------------
+potential energy: -118.35322 kcal/mol
+-------------
+
+Interation 113
+-------------
+potential energy: -118.53867 kcal/mol
+-------------
+
+Interation 114
+-------------
+potential energy: -118.71964 kcal/mol
+-------------
+
+Interation 115
+-------------
+potential energy: -118.89575 kcal/mol
+-------------
+
+Interation 116
+-------------
+potential energy: -119.06682 kcal/mol
+-------------
+
+Interation 117
+-------------
+potential energy: -119.23288 kcal/mol
+-------------
+
+Interation 118
+-------------
+potential energy: -119.39411 kcal/mol
+-------------
+
+Interation 119
+-------------
+potential energy: -119.5508 kcal/mol
+-------------
+
+Interation 120
+-------------
+potential energy: -119.70337 kcal/mol
+-------------
+
+Interation 121
+-------------
+potential energy: -119.85219 kcal/mol
+-------------
+
+Interation 122
+-------------
+potential energy: -119.99767 kcal/mol
+-------------
+
+Interation 123
+-------------
+potential energy: -120.14008 kcal/mol
+-------------
+
+Interation 124
+-------------
+potential energy: -120.27966 kcal/mol
+-------------
+
+Interation 125
+-------------
+potential energy: -120.41652 kcal/mol
+-------------
+
+Interation 126
+-------------
+potential energy: -120.55071 kcal/mol
+-------------
+
+Interation 127
+-------------
+potential energy: -120.68221 kcal/mol
+-------------
+
+Interation 128
+-------------
+potential energy: -120.81095 kcal/mol
+-------------
+
+Interation 129
+-------------
+potential energy: -120.93686 kcal/mol
+-------------
+
+Interation 130
+-------------
+potential energy: -121.05985 kcal/mol
+-------------
+
+Interation 131
+-------------
+potential energy: -121.17987 kcal/mol
+-------------
+
+Interation 132
+-------------
+potential energy: -121.2969 kcal/mol
+-------------
+
+Interation 133
+-------------
+potential energy: -121.41097 kcal/mol
+-------------
+
+Interation 134
+-------------
+potential energy: -121.52217 kcal/mol
+-------------
+
+Interation 135
+-------------
+potential energy: -121.63063 kcal/mol
+-------------
+
+Interation 136
+-------------
+potential energy: -121.73656 kcal/mol
+-------------
+
+Interation 137
+-------------
+potential energy: -121.84017 kcal/mol
+-------------
+
+Interation 138
+-------------
+potential energy: -121.94171 kcal/mol
+-------------
+
+Interation 139
+-------------
+potential energy: -122.04139 kcal/mol
+-------------
+
+Interation 140
+-------------
+potential energy: -122.13942 kcal/mol
+-------------
+
+Interation 141
+-------------
+potential energy: -122.23599 kcal/mol
+-------------
+
+Interation 142
+-------------
+potential energy: -122.33124 kcal/mol
+-------------
+
+Interation 143
+-------------
+potential energy: -122.42529 kcal/mol
+-------------
+
+Interation 144
+-------------
+potential energy: -122.51822 kcal/mol
+-------------
+
+Interation 145
+-------------
+potential energy: -122.6101 kcal/mol
+-------------
+
+Interation 146
+-------------
+potential energy: -122.701 kcal/mol
+-------------
+
+Interation 147
+-------------
+potential energy: -122.79098 kcal/mol
+-------------
+
+Interation 148
+-------------
+potential energy: -122.8801 kcal/mol
+-------------
+
+Interation 149
+-------------
+potential energy: -122.96844 kcal/mol
+-------------
+
+Interation 150
+-------------
+potential energy: -123.05605 kcal/mol
+-------------
+
+Interation 151
+-------------
+potential energy: -123.14303 kcal/mol
+-------------
+
+Interation 152
+-------------
+potential energy: -123.22944 kcal/mol
+-------------
+
+Interation 153
+-------------
+potential energy: -123.31536 kcal/mol
+-------------
+
+Interation 154
+-------------
+potential energy: -123.40086 kcal/mol
+-------------
+
+Interation 155
+-------------
+potential energy: -123.486 kcal/mol
+-------------
+
+Interation 156
+-------------
+potential energy: -123.57083 kcal/mol
+-------------
+
+Interation 157
+-------------
+potential energy: -123.6554 kcal/mol
+-------------
+
+Interation 158
+-------------
+potential energy: -123.73977 kcal/mol
+-------------
+
+Interation 159
+-------------
+potential energy: -123.82397 kcal/mol
+-------------
+
+Interation 160
+-------------
+potential energy: -123.90804 kcal/mol
+-------------
+
+Interation 161
+-------------
+potential energy: -123.99204 kcal/mol
+-------------
+
+Interation 162
+-------------
+potential energy: -124.07601 kcal/mol
+-------------
+
+Interation 163
+-------------
+potential energy: -124.16 kcal/mol
+-------------
+
+Interation 164
+-------------
+potential energy: -124.24407 kcal/mol
+-------------
+
+Interation 165
+-------------
+potential energy: -124.32827 kcal/mol
+-------------
+
+Interation 166
+-------------
+potential energy: -124.41267 kcal/mol
+-------------
+
+Interation 167
+-------------
+potential energy: -124.49733 kcal/mol
+-------------
+
+Interation 168
+-------------
+potential energy: -124.58233 kcal/mol
+-------------
+
+Interation 169
+-------------
+potential energy: -124.66772 kcal/mol
+-------------
+
+Interation 170
+-------------
+potential energy: -124.75356 kcal/mol
+-------------
+
+Interation 171
+-------------
+potential energy: -124.8399 kcal/mol
+-------------
+
+Interation 172
+-------------
+potential energy: -124.92677 kcal/mol
+-------------
+
+Interation 173
+-------------
+potential energy: -125.01419 kcal/mol
+-------------
+
+Interation 174
+-------------
+potential energy: -125.10215 kcal/mol
+-------------
+
+Interation 175
+-------------
+potential energy: -125.19061 kcal/mol
+-------------
+
+Interation 176
+-------------
+potential energy: -125.2795 kcal/mol
+-------------
+
+Interation 177
+-------------
+potential energy: -125.3687 kcal/mol
+-------------
+
+Interation 178
+-------------
+potential energy: -125.45807 kcal/mol
+-------------
+
+Interation 179
+-------------
+potential energy: -125.54744 kcal/mol
+-------------
+
+Interation 180
+-------------
+potential energy: -125.63658 kcal/mol
+-------------
+
+Interation 181
+-------------
+potential energy: -125.72524 kcal/mol
+-------------
+
+Interation 182
+-------------
+potential energy: -125.81315 kcal/mol
+-------------
+
+Interation 183
+-------------
+potential energy: -125.90001 kcal/mol
+-------------
+
+Interation 184
+-------------
+potential energy: -125.98551 kcal/mol
+-------------
+
+Interation 185
+-------------
+potential energy: -126.06931 kcal/mol
+-------------
+
+Interation 186
+-------------
+potential energy: -126.15113 kcal/mol
+-------------
+
+Interation 187
+-------------
+potential energy: -126.23069 kcal/mol
+-------------
+
+Interation 188
+-------------
+potential energy: -126.30779 kcal/mol
+-------------
+
+Interation 189
+-------------
+potential energy: -126.38233 kcal/mol
+-------------
+
+Interation 190
+-------------
+potential energy: -126.45425 kcal/mol
+-------------
+
+Interation 191
+-------------
+potential energy: -126.52363 kcal/mol
+-------------
+
+Interation 192
+-------------
+potential energy: -126.59056 kcal/mol
+-------------
+
+Interation 193
+-------------
+potential energy: -126.65521 kcal/mol
+-------------
+
+Interation 194
+-------------
+potential energy: -126.71774 kcal/mol
+-------------
+
+Interation 195
+-------------
+potential energy: -126.77836 kcal/mol
+-------------
+
+Interation 196
+-------------
+potential energy: -126.83725 kcal/mol
+-------------
+
+Interation 197
+-------------
+potential energy: -126.89458 kcal/mol
+-------------
+
+Interation 198
+-------------
+potential energy: -126.95052 kcal/mol
+-------------
+
+Interation 199
+-------------
+potential energy: -127.00521 kcal/mol
+-------------
+
+Interation 200
+-------------
+potential energy: -127.05877 kcal/mol
+-------------
+
+Interation 201
+-------------
+potential energy: -127.11127 kcal/mol
+-------------
+
+Interation 202
+-------------
+potential energy: -127.16277 kcal/mol
+-------------
+
+Interation 203
+-------------
+potential energy: -127.2133 kcal/mol
+-------------
+
+Interation 204
+-------------
+potential energy: -127.26284 kcal/mol
+-------------
+
+Interation 205
+-------------
+potential energy: -127.31136 kcal/mol
+-------------
+
+Interation 206
+-------------
+potential energy: -127.3588 kcal/mol
+-------------
+
+Interation 207
+-------------
+potential energy: -127.4051 kcal/mol
+-------------
+
+Interation 208
+-------------
+potential energy: -127.45017 kcal/mol
+-------------
+
+Interation 209
+-------------
+potential energy: -127.49392 kcal/mol
+-------------
+
+Interation 210
+-------------
+potential energy: -127.53626 kcal/mol
+-------------
+
+Interation 211
+-------------
+potential energy: -127.57713 kcal/mol
+-------------
+
+Interation 212
+-------------
+potential energy: -127.61644 kcal/mol
+-------------
+
+Interation 213
+-------------
+potential energy: -127.65417 kcal/mol
+-------------
+
+Interation 214
+-------------
+potential energy: -127.69027 kcal/mol
+-------------
+
+Interation 215
+-------------
+potential energy: -127.72476 kcal/mol
+-------------
+
+Interation 216
+-------------
+potential energy: -127.75765 kcal/mol
+-------------
+
+Interation 217
+-------------
+potential energy: -127.78898 kcal/mol
+-------------
+
+Interation 218
+-------------
+potential energy: -127.81883 kcal/mol
+-------------
+
+Interation 219
+-------------
+potential energy: -127.84728 kcal/mol
+-------------
+
+Interation 220
+-------------
+potential energy: -127.87442 kcal/mol
+-------------
+
+Interation 221
+-------------
+potential energy: -127.90035 kcal/mol
+-------------
+
+Interation 222
+-------------
+potential energy: -127.92517 kcal/mol
+-------------
+
+Interation 223
+-------------
+potential energy: -127.94899 kcal/mol
+-------------
+
+Interation 224
+-------------
+potential energy: -127.9719 kcal/mol
+-------------
+
+Interation 225
+-------------
+potential energy: -127.99398 kcal/mol
+-------------
+
+Interation 226
+-------------
+potential energy: -128.01532 kcal/mol
+-------------
+
+Interation 227
+-------------
+potential energy: -128.03598 kcal/mol
+-------------
+
+Interation 228
+-------------
+potential energy: -128.05603 kcal/mol
+-------------
+
+Interation 229
+-------------
+potential energy: -128.07553 kcal/mol
+-------------
+
+Interation 230
+-------------
+potential energy: -128.09452 kcal/mol
+-------------
+
+Interation 231
+-------------
+potential energy: -128.11303 kcal/mol
+-------------
+
+Interation 232
+-------------
+potential energy: -128.13112 kcal/mol
+-------------
+
+Interation 233
+-------------
+potential energy: -128.1488 kcal/mol
+-------------
+
+Interation 234
+-------------
+potential energy: -128.1661 kcal/mol
+-------------
+
+Interation 235
+-------------
+potential energy: -128.18303 kcal/mol
+-------------
+
+Interation 236
+-------------
+potential energy: -128.19963 kcal/mol
+-------------
+
+Interation 237
+-------------
+potential energy: -128.21589 kcal/mol
+-------------
+
+Interation 238
+-------------
+potential energy: -128.23183 kcal/mol
+-------------
+
+Interation 239
+-------------
+potential energy: -128.24747 kcal/mol
+-------------
+
+Interation 240
+-------------
+potential energy: -128.2628 kcal/mol
+-------------
+
+Interation 241
+-------------
+potential energy: -128.27783 kcal/mol
+-------------
+
+Interation 242
+-------------
+potential energy: -128.29258 kcal/mol
+-------------
+
+Interation 243
+-------------
+potential energy: -128.30704 kcal/mol
+-------------
+
+Interation 244
+-------------
+potential energy: -128.32123 kcal/mol
+-------------
+
+Interation 245
+-------------
+potential energy: -128.33515 kcal/mol
+-------------
+
+Interation 246
+-------------
+potential energy: -128.34881 kcal/mol
+-------------
+
+Interation 247
+-------------
+potential energy: -128.36223 kcal/mol
+-------------
+
+Interation 248
+-------------
+potential energy: -128.3754 kcal/mol
+-------------
+
+Interation 249
+-------------
+potential energy: -128.38835 kcal/mol
+-------------
+
+Interation 250
+-------------
+potential energy: -128.40107 kcal/mol
+-------------
+
+Interation 251
+-------------
+potential energy: -128.4136 kcal/mol
+-------------
+
+Interation 252
+-------------
+potential energy: -128.42593 kcal/mol
+-------------
+
+Interation 253
+-------------
+potential energy: -128.43807 kcal/mol
+-------------
+
+Interation 254
+-------------
+potential energy: -128.45005 kcal/mol
+-------------
+
+Interation 255
+-------------
+potential energy: -128.46186 kcal/mol
+-------------
+
+Interation 256
+-------------
+potential energy: -128.47353 kcal/mol
+-------------
+
+Interation 257
+-------------
+potential energy: -128.48506 kcal/mol
+-------------
+
+Interation 258
+-------------
+potential energy: -128.49646 kcal/mol
+-------------
+
+Interation 259
+-------------
+potential energy: -128.50775 kcal/mol
+-------------
+
+Interation 260
+-------------
+potential energy: -128.51893 kcal/mol
+-------------
+
+Interation 261
+-------------
+potential energy: -128.53001 kcal/mol
+-------------
+
+Interation 262
+-------------
+potential energy: -128.54101 kcal/mol
+-------------
+
+Interation 263
+-------------
+potential energy: -128.55193 kcal/mol
+-------------
+
+Interation 264
+-------------
+potential energy: -128.56278 kcal/mol
+-------------
+
+Interation 265
+-------------
+potential energy: -128.57359 kcal/mol
+-------------
+
+Interation 266
+-------------
+potential energy: -128.58434 kcal/mol
+-------------
+
+Interation 267
+-------------
+potential energy: -128.59507 kcal/mol
+-------------
+
+Interation 268
+-------------
+potential energy: -128.60577 kcal/mol
+-------------
+
+Interation 269
+-------------
+potential energy: -128.61646 kcal/mol
+-------------
+
+Interation 270
+-------------
+potential energy: -128.62716 kcal/mol
+-------------
+
+Interation 271
+-------------
+potential energy: -128.63787 kcal/mol
+-------------
+
+Interation 272
+-------------
+potential energy: -128.64861 kcal/mol
+-------------
+
+Interation 273
+-------------
+potential energy: -128.6594 kcal/mol
+-------------
+
+Interation 274
+-------------
+potential energy: -128.67023 kcal/mol
+-------------
+
+Interation 275
+-------------
+potential energy: -128.68114 kcal/mol
+-------------
+
+Interation 276
+-------------
+potential energy: -128.69213 kcal/mol
+-------------
+
+Interation 277
+-------------
+potential energy: -128.70321 kcal/mol
+-------------
+
+Interation 278
+-------------
+potential energy: -128.71441 kcal/mol
+-------------
+
+Interation 279
+-------------
+potential energy: -128.72573 kcal/mol
+-------------
+
+Interation 280
+-------------
+potential energy: -128.7372 kcal/mol
+-------------
+
+Interation 281
+-------------
+potential energy: -128.74883 kcal/mol
+-------------
+
+Interation 282
+-------------
+potential energy: -128.76063 kcal/mol
+-------------
+
+Interation 283
+-------------
+potential energy: -128.77261 kcal/mol
+-------------
+
+Interation 284
+-------------
+potential energy: -128.78481 kcal/mol
+-------------
+
+Interation 285
+-------------
+potential energy: -128.79722 kcal/mol
+-------------
+
+Interation 286
+-------------
+potential energy: -128.80986 kcal/mol
+-------------
+
+Interation 287
+-------------
+potential energy: -128.82276 kcal/mol
+-------------
+
+Interation 288
+-------------
+potential energy: -128.83591 kcal/mol
+-------------
+
+Interation 289
+-------------
+potential energy: -128.84935 kcal/mol
+-------------
+
+Interation 290
+-------------
+potential energy: -128.86307 kcal/mol
+-------------
+
+Interation 291
+-------------
+potential energy: -128.87709 kcal/mol
+-------------
+
+Interation 292
+-------------
+potential energy: -128.89142 kcal/mol
+-------------
+
+Interation 293
+-------------
+potential energy: -128.90608 kcal/mol
+-------------
+
+Interation 294
+-------------
+potential energy: -128.92106 kcal/mol
+-------------
+
+Interation 295
+-------------
+potential energy: -128.93638 kcal/mol
+-------------
+
+Interation 296
+-------------
+potential energy: -128.95203 kcal/mol
+-------------
+
+Interation 297
+-------------
+potential energy: -128.96803 kcal/mol
+-------------
+
+Interation 298
+-------------
+potential energy: -128.98437 kcal/mol
+-------------
+
+Interation 299
+-------------
+potential energy: -129.00106 kcal/mol
+-------------
+
+Interation 300
+-------------
+potential energy: -129.01808 kcal/mol
+-------------
+
+Interation 301
+-------------
+potential energy: -129.03544 kcal/mol
+-------------
+
+Interation 302
+-------------
+potential energy: -129.05312 kcal/mol
+-------------
+
+Interation 303
+-------------
+potential energy: -129.07111 kcal/mol
+-------------
+
+Interation 304
+-------------
+potential energy: -129.0894 kcal/mol
+-------------
+
+Interation 305
+-------------
+potential energy: -129.10797 kcal/mol
+-------------
+
+Interation 306
+-------------
+potential energy: -129.12681 kcal/mol
+-------------
+
+Interation 307
+-------------
+potential energy: -129.14589 kcal/mol
+-------------
+
+Interation 308
+-------------
+potential energy: -129.16518 kcal/mol
+-------------
+
+Interation 309
+-------------
+potential energy: -129.18467 kcal/mol
+-------------
+
+Interation 310
+-------------
+potential energy: -129.2043 kcal/mol
+-------------
+
+Interation 311
+-------------
+potential energy: -129.22407 kcal/mol
+-------------
+
+Interation 312
+-------------
+potential energy: -129.24392 kcal/mol
+-------------
+
+Interation 313
+-------------
+potential energy: -129.26382 kcal/mol
+-------------
+
+Interation 314
+-------------
+potential energy: -129.28374 kcal/mol
+-------------
+
+Interation 315
+-------------
+potential energy: -129.30364 kcal/mol
+-------------
+
+Interation 316
+-------------
+potential energy: -129.32348 kcal/mol
+-------------
+
+Interation 317
+-------------
+potential energy: -129.34322 kcal/mol
+-------------
+
+Interation 318
+-------------
+potential energy: -129.36283 kcal/mol
+-------------
+
+Interation 319
+-------------
+potential energy: -129.38229 kcal/mol
+-------------
+
+Interation 320
+-------------
+potential energy: -129.40156 kcal/mol
+-------------
+
+Interation 321
+-------------
+potential energy: -129.42063 kcal/mol
+-------------
+
+Interation 322
+-------------
+potential energy: -129.43948 kcal/mol
+-------------
+
+Interation 323
+-------------
+potential energy: -129.45809 kcal/mol
+-------------
+
+Interation 324
+-------------
+potential energy: -129.47647 kcal/mol
+-------------
+
+Interation 325
+-------------
+potential energy: -129.49461 kcal/mol
+-------------
+
+Interation 326
+-------------
+potential energy: -129.51251 kcal/mol
+-------------
+
+Interation 327
+-------------
+potential energy: -129.53018 kcal/mol
+-------------
+
+Interation 328
+-------------
+potential energy: -129.54763 kcal/mol
+-------------
+
+Interation 329
+-------------
+potential energy: -129.56488 kcal/mol
+-------------
+
+Interation 330
+-------------
+potential energy: -129.58193 kcal/mol
+-------------
+
+Interation 331
+-------------
+potential energy: -129.5988 kcal/mol
+-------------
+
+Interation 332
+-------------
+potential energy: -129.6155 kcal/mol
+-------------
+
+Interation 333
+-------------
+potential energy: -129.63206 kcal/mol
+-------------
+
+Interation 334
+-------------
+potential energy: -129.64847 kcal/mol
+-------------
+
+Interation 335
+-------------
+potential energy: -129.66476 kcal/mol
+-------------
+
+Interation 336
+-------------
+potential energy: -129.68094 kcal/mol
+-------------
+
+Interation 337
+-------------
+potential energy: -129.69702 kcal/mol
+-------------
+
+Interation 338
+-------------
+potential energy: -129.71302 kcal/mol
+-------------
+
+Interation 339
+-------------
+potential energy: -129.72895 kcal/mol
+-------------
+
+Interation 340
+-------------
+potential energy: -129.74481 kcal/mol
+-------------
+
+Interation 341
+-------------
+potential energy: -129.76062 kcal/mol
+-------------
+
+Interation 342
+-------------
+potential energy: -129.7764 kcal/mol
+-------------
+
+Interation 343
+-------------
+potential energy: -129.79214 kcal/mol
+-------------
+
+Interation 344
+-------------
+potential energy: -129.80787 kcal/mol
+-------------
+
+Interation 345
+-------------
+potential energy: -129.82358 kcal/mol
+-------------
+
+Interation 346
+-------------
+potential energy: -129.83929 kcal/mol
+-------------
+
+Interation 347
+-------------
+potential energy: -129.85501 kcal/mol
+-------------
+
+Interation 348
+-------------
+potential energy: -129.87075 kcal/mol
+-------------
+
+Interation 349
+-------------
+potential energy: -129.88651 kcal/mol
+-------------
+
+Interation 350
+-------------
+potential energy: -129.9023 kcal/mol
+-------------
+
+Interation 351
+-------------
+potential energy: -129.91813 kcal/mol
+-------------
+
+Interation 352
+-------------
+potential energy: -129.934 kcal/mol
+-------------
+
+Interation 353
+-------------
+potential energy: -129.94992 kcal/mol
+-------------
+
+Interation 354
+-------------
+potential energy: -129.96591 kcal/mol
+-------------
+
+Interation 355
+-------------
+potential energy: -129.98195 kcal/mol
+-------------
+
+Interation 356
+-------------
+potential energy: -129.99807 kcal/mol
+-------------
+
+Interation 357
+-------------
+potential energy: -130.01426 kcal/mol
+-------------
+
+Interation 358
+-------------
+potential energy: -130.03053 kcal/mol
+-------------
+
+Interation 359
+-------------
+potential energy: -130.04688 kcal/mol
+-------------
+
+Interation 360
+-------------
+potential energy: -130.06331 kcal/mol
+-------------
+
+Interation 361
+-------------
+potential energy: -130.07984 kcal/mol
+-------------
+
+Interation 362
+-------------
+potential energy: -130.09645 kcal/mol
+-------------
+
+Interation 363
+-------------
+potential energy: -130.11316 kcal/mol
+-------------
+
+Interation 364
+-------------
+potential energy: -130.12996 kcal/mol
+-------------
+
+Interation 365
+-------------
+potential energy: -130.14686 kcal/mol
+-------------
+
+Interation 366
+-------------
+potential energy: -130.16385 kcal/mol
+-------------
+
+Interation 367
+-------------
+potential energy: -130.18093 kcal/mol
+-------------
+
+Interation 368
+-------------
+potential energy: -130.1981 kcal/mol
+-------------
+
+Interation 369
+-------------
+potential energy: -130.21536 kcal/mol
+-------------
+
+Interation 370
+-------------
+potential energy: -130.23269 kcal/mol
+-------------
+
+Interation 371
+-------------
+potential energy: -130.2501 kcal/mol
+-------------
+
+Interation 372
+-------------
+potential energy: -130.26757 kcal/mol
+-------------
+
+Interation 373
+-------------
+potential energy: -130.2851 kcal/mol
+-------------
+
+Interation 374
+-------------
+potential energy: -130.30267 kcal/mol
+-------------
+
+Interation 375
+-------------
+potential energy: -130.32028 kcal/mol
+-------------
+
+Interation 376
+-------------
+potential energy: -130.33791 kcal/mol
+-------------
+
+Interation 377
+-------------
+potential energy: -130.35554 kcal/mol
+-------------
+
+Interation 378
+-------------
+potential energy: -130.37317 kcal/mol
+-------------
+
+Interation 379
+-------------
+potential energy: -130.39077 kcal/mol
+-------------
+
+Interation 380
+-------------
+potential energy: -130.40832 kcal/mol
+-------------
+
+Interation 381
+-------------
+potential energy: -130.42581 kcal/mol
+-------------
+
+Interation 382
+-------------
+potential energy: -130.44322 kcal/mol
+-------------
+
+Interation 383
+-------------
+potential energy: -130.46053 kcal/mol
+-------------
+
+Interation 384
+-------------
+potential energy: -130.47772 kcal/mol
+-------------
+
+Interation 385
+-------------
+potential energy: -130.49477 kcal/mol
+-------------
+
+Interation 386
+-------------
+potential energy: -130.51166 kcal/mol
+-------------
+
+Interation 387
+-------------
+potential energy: -130.52837 kcal/mol
+-------------
+
+Interation 388
+-------------
+potential energy: -130.54489 kcal/mol
+-------------
+
+Interation 389
+-------------
+potential energy: -130.5612 kcal/mol
+-------------
+
+Interation 390
+-------------
+potential energy: -130.57729 kcal/mol
+-------------
+
+Interation 391
+-------------
+potential energy: -130.59314 kcal/mol
+-------------
+
+Interation 392
+-------------
+potential energy: -130.60875 kcal/mol
+-------------
+
+Interation 393
+-------------
+potential energy: -130.6241 kcal/mol
+-------------
+
+Interation 394
+-------------
+potential energy: -130.63918 kcal/mol
+-------------
+
+Interation 395
+-------------
+potential energy: -130.654 kcal/mol
+-------------
+
+Interation 396
+-------------
+potential energy: -130.66854 kcal/mol
+-------------
+
+Interation 397
+-------------
+potential energy: -130.6828 kcal/mol
+-------------
+
+Interation 398
+-------------
+potential energy: -130.69678 kcal/mol
+-------------
+
+Interation 399
+-------------
+potential energy: -130.71049 kcal/mol
+-------------
+
+Interation 400
+-------------
+potential energy: -130.72392 kcal/mol
+-------------
+
+Interation 401
+-------------
+potential energy: -130.73706 kcal/mol
+-------------
+
+Interation 402
+-------------
+potential energy: -130.74994 kcal/mol
+-------------
+
+Interation 403
+-------------
+potential energy: -130.76255 kcal/mol
+-------------
+
+Interation 404
+-------------
+potential energy: -130.77489 kcal/mol
+-------------
+
+Interation 405
+-------------
+potential energy: -130.78698 kcal/mol
+-------------
+
+Interation 406
+-------------
+potential energy: -130.79881 kcal/mol
+-------------
+
+Interation 407
+-------------
+potential energy: -130.81039 kcal/mol
+-------------
+
+Interation 408
+-------------
+potential energy: -130.82173 kcal/mol
+-------------
+
+Interation 409
+-------------
+potential energy: -130.83285 kcal/mol
+-------------
+
+Interation 410
+-------------
+potential energy: -130.84374 kcal/mol
+-------------
+
+Interation 411
+-------------
+potential energy: -130.85441 kcal/mol
+-------------
+
+Interation 412
+-------------
+potential energy: -130.86487 kcal/mol
+-------------
+
+Interation 413
+-------------
+potential energy: -130.87514 kcal/mol
+-------------
+
+Interation 414
+-------------
+potential energy: -130.88521 kcal/mol
+-------------
+
+Interation 415
+-------------
+potential energy: -130.8951 kcal/mol
+-------------
+
+Interation 416
+-------------
+potential energy: -130.90482 kcal/mol
+-------------
+
+Interation 417
+-------------
+potential energy: -130.91437 kcal/mol
+-------------
+
+Interation 418
+-------------
+potential energy: -130.92377 kcal/mol
+-------------
+
+Interation 419
+-------------
+potential energy: -130.93302 kcal/mol
+-------------
+
+Interation 420
+-------------
+potential energy: -130.94212 kcal/mol
+-------------
+
+Interation 421
+-------------
+potential energy: -130.95109 kcal/mol
+-------------
+
+Interation 422
+-------------
+potential energy: -130.95994 kcal/mol
+-------------
+
+Interation 423
+-------------
+potential energy: -130.96866 kcal/mol
+-------------
+
+Interation 424
+-------------
+potential energy: -130.97728 kcal/mol
+-------------
+
+Interation 425
+-------------
+potential energy: -130.98579 kcal/mol
+-------------
+
+Interation 426
+-------------
+potential energy: -130.99421 kcal/mol
+-------------
+
+Interation 427
+-------------
+potential energy: -131.00253 kcal/mol
+-------------
+
+Interation 428
+-------------
+potential energy: -131.01076 kcal/mol
+-------------
+
+Interation 429
+-------------
+potential energy: -131.01892 kcal/mol
+-------------
+
+Interation 430
+-------------
+potential energy: -131.027 kcal/mol
+-------------
+
+Interation 431
+-------------
+potential energy: -131.03502 kcal/mol
+-------------
+
+Interation 432
+-------------
+potential energy: -131.04296 kcal/mol
+-------------
+
+Interation 433
+-------------
+potential energy: -131.05085 kcal/mol
+-------------
+
+Interation 434
+-------------
+potential energy: -131.05869 kcal/mol
+-------------
+
+Interation 435
+-------------
+potential energy: -131.06647 kcal/mol
+-------------
+
+Interation 436
+-------------
+potential energy: -131.07421 kcal/mol
+-------------
+
+Interation 437
+-------------
+potential energy: -131.08191 kcal/mol
+-------------
+
+Interation 438
+-------------
+potential energy: -131.08956 kcal/mol
+-------------
+
+Interation 439
+-------------
+potential energy: -131.09719 kcal/mol
+-------------
+
+Interation 440
+-------------
+potential energy: -131.10477 kcal/mol
+-------------
+
+Interation 441
+-------------
+potential energy: -131.11233 kcal/mol
+-------------
+
+Interation 442
+-------------
+potential energy: -131.11987 kcal/mol
+-------------
+
+Interation 443
+-------------
+potential energy: -131.12738 kcal/mol
+-------------
+
+Interation 444
+-------------
+potential energy: -131.13486 kcal/mol
+-------------
+
+Interation 445
+-------------
+potential energy: -131.14233 kcal/mol
+-------------
+
+Interation 446
+-------------
+potential energy: -131.14978 kcal/mol
+-------------
+
+Interation 447
+-------------
+potential energy: -131.15722 kcal/mol
+-------------
+
+Interation 448
+-------------
+potential energy: -131.16464 kcal/mol
+-------------
+
+Interation 449
+-------------
+potential energy: -131.17205 kcal/mol
+-------------
+
+Interation 450
+-------------
+potential energy: -131.17945 kcal/mol
+-------------
+
+Interation 451
+-------------
+potential energy: -131.18684 kcal/mol
+-------------
+
+Interation 452
+-------------
+potential energy: -131.19422 kcal/mol
+-------------
+
+Interation 453
+-------------
+potential energy: -131.20159 kcal/mol
+-------------
+
+Interation 454
+-------------
+potential energy: -131.20895 kcal/mol
+-------------
+
+Interation 455
+-------------
+potential energy: -131.21631 kcal/mol
+-------------
+
+Interation 456
+-------------
+potential energy: -131.22366 kcal/mol
+-------------
+
+Interation 457
+-------------
+potential energy: -131.23101 kcal/mol
+-------------
+
+Interation 458
+-------------
+potential energy: -131.23834 kcal/mol
+-------------
+
+Interation 459
+-------------
+potential energy: -131.24567 kcal/mol
+-------------
+
+Interation 460
+-------------
+potential energy: -131.253 kcal/mol
+-------------
+
+Interation 461
+-------------
+potential energy: -131.26031 kcal/mol
+-------------
+
+Interation 462
+-------------
+potential energy: -131.26761 kcal/mol
+-------------
+
+Interation 463
+-------------
+potential energy: -131.27491 kcal/mol
+-------------
+
+Interation 464
+-------------
+potential energy: -131.28219 kcal/mol
+-------------
+
+Interation 465
+-------------
+potential energy: -131.28946 kcal/mol
+-------------
+
+Interation 466
+-------------
+potential energy: -131.29671 kcal/mol
+-------------
+
+Interation 467
+-------------
+potential energy: -131.30395 kcal/mol
+-------------
+
+Interation 468
+-------------
+potential energy: -131.31117 kcal/mol
+-------------
+
+Interation 469
+-------------
+potential energy: -131.31837 kcal/mol
+-------------
+
+Interation 470
+-------------
+potential energy: -131.32554 kcal/mol
+-------------
+
+Interation 471
+-------------
+potential energy: -131.33269 kcal/mol
+-------------
+
+Interation 472
+-------------
+potential energy: -131.33981 kcal/mol
+-------------
+
+Interation 473
+-------------
+potential energy: -131.3469 kcal/mol
+-------------
+
+Interation 474
+-------------
+potential energy: -131.35395 kcal/mol
+-------------
+
+Interation 475
+-------------
+potential energy: -131.36097 kcal/mol
+-------------
+
+Interation 476
+-------------
+potential energy: -131.36795 kcal/mol
+-------------
+
+Interation 477
+-------------
+potential energy: -131.37488 kcal/mol
+-------------
+
+Interation 478
+-------------
+potential energy: -131.38177 kcal/mol
+-------------
+
+Interation 479
+-------------
+potential energy: -131.38862 kcal/mol
+-------------
+
+Interation 480
+-------------
+potential energy: -131.39541 kcal/mol
+-------------
+
+Interation 481
+-------------
+potential energy: -131.40214 kcal/mol
+-------------
+
+Interation 482
+-------------
+potential energy: -131.40882 kcal/mol
+-------------
+
+Interation 483
+-------------
+potential energy: -131.41544 kcal/mol
+-------------
+
+Interation 484
+-------------
+potential energy: -131.422 kcal/mol
+-------------
+
+Interation 485
+-------------
+potential energy: -131.42849 kcal/mol
+-------------
+
+Interation 486
+-------------
+potential energy: -131.43492 kcal/mol
+-------------
+
+Interation 487
+-------------
+potential energy: -131.44127 kcal/mol
+-------------
+
+Interation 488
+-------------
+potential energy: -131.44756 kcal/mol
+-------------
+
+Interation 489
+-------------
+potential energy: -131.45378 kcal/mol
+-------------
+
+Interation 490
+-------------
+potential energy: -131.45992 kcal/mol
+-------------
+
+Interation 491
+-------------
+potential energy: -131.46599 kcal/mol
+-------------
+
+Interation 492
+-------------
+potential energy: -131.47198 kcal/mol
+-------------
+
+Interation 493
+-------------
+potential energy: -131.47789 kcal/mol
+-------------
+
+Interation 494
+-------------
+potential energy: -131.48373 kcal/mol
+-------------
+
+Interation 495
+-------------
+potential energy: -131.48948 kcal/mol
+-------------
+
+Interation 496
+-------------
+potential energy: -131.49516 kcal/mol
+-------------
+
+Interation 497
+-------------
+potential energy: -131.50075 kcal/mol
+-------------
+
+Interation 498
+-------------
+potential energy: -131.50626 kcal/mol
+-------------
+
+Interation 499
+-------------
+potential energy: -131.51169 kcal/mol
+-------------
+
+Interation 500
+-------------
+potential energy: -131.51704 kcal/mol
+-------------
+
+Interation 501
+-------------
+potential energy: -131.5223 kcal/mol
+-------------
+
+Interation 502
+-------------
+potential energy: -131.52747 kcal/mol
+-------------
+
+Interation 503
+-------------
+potential energy: -131.53257 kcal/mol
+-------------
+
+Interation 504
+-------------
+potential energy: -131.53757 kcal/mol
+-------------
+
+Interation 505
+-------------
+potential energy: -131.54249 kcal/mol
+-------------
+
+Interation 506
+-------------
+potential energy: -131.54733 kcal/mol
+-------------
+
+Interation 507
+-------------
+potential energy: -131.55207 kcal/mol
+-------------
+
+Interation 508
+-------------
+potential energy: -131.55673 kcal/mol
+-------------
+
+Interation 509
+-------------
+potential energy: -131.56131 kcal/mol
+-------------
+
+Interation 510
+-------------
+potential energy: -131.56579 kcal/mol
+-------------
+
+Interation 511
+-------------
+potential energy: -131.57019 kcal/mol
+-------------
+
+Interation 512
+-------------
+potential energy: -131.5745 kcal/mol
+-------------
+
+Interation 513
+-------------
+potential energy: -131.57873 kcal/mol
+-------------
+
+Interation 514
+-------------
+potential energy: -131.58287 kcal/mol
+-------------
+
+Interation 515
+-------------
+potential energy: -131.58692 kcal/mol
+-------------
+
+Interation 516
+-------------
+potential energy: -131.59089 kcal/mol
+-------------
+
+Interation 517
+-------------
+potential energy: -131.59478 kcal/mol
+-------------
+
+Interation 518
+-------------
+potential energy: -131.59859 kcal/mol
+-------------
+
+Interation 519
+-------------
+potential energy: -131.60231 kcal/mol
+-------------
+
+Interation 520
+-------------
+potential energy: -131.60597 kcal/mol
+-------------
+
+Interation 521
+-------------
+potential energy: -131.60954 kcal/mol
+-------------
+
+Interation 522
+-------------
+potential energy: -131.61305 kcal/mol
+-------------
+
+Interation 523
+-------------
+potential energy: -131.61648 kcal/mol
+-------------
+
+Interation 524
+-------------
+potential energy: -131.61985 kcal/mol
+-------------
+
+Interation 525
+-------------
+potential energy: -131.62316 kcal/mol
+-------------
+
+Interation 526
+-------------
+potential energy: -131.6264 kcal/mol
+-------------
+
+Interation 527
+-------------
+potential energy: -131.62959 kcal/mol
+-------------
+
+Interation 528
+-------------
+potential energy: -131.63272 kcal/mol
+-------------
+
+Interation 529
+-------------
+potential energy: -131.63579 kcal/mol
+-------------
+
+Interation 530
+-------------
+potential energy: -131.63882 kcal/mol
+-------------
+
+Interation 531
+-------------
+potential energy: -131.64181 kcal/mol
+-------------
+
+Interation 532
+-------------
+potential energy: -131.64475 kcal/mol
+-------------
+
+Interation 533
+-------------
+potential energy: -131.64765 kcal/mol
+-------------
+
+Interation 534
+-------------
+potential energy: -131.65051 kcal/mol
+-------------
+
+Interation 535
+-------------
+potential energy: -131.65334 kcal/mol
+-------------
+
+Interation 536
+-------------
+potential energy: -131.65613 kcal/mol
+-------------
+
+Interation 537
+-------------
+potential energy: -131.6589 kcal/mol
+-------------
+
+Interation 538
+-------------
+potential energy: -131.66163 kcal/mol
+-------------
+
+Interation 539
+-------------
+potential energy: -131.66434 kcal/mol
+-------------
+
+Interation 540
+-------------
+potential energy: -131.66702 kcal/mol
+-------------
+
+Interation 541
+-------------
+potential energy: -131.66968 kcal/mol
+-------------
+
+Interation 542
+-------------
+potential energy: -131.67232 kcal/mol
+-------------
+
+Interation 543
+-------------
+potential energy: -131.67494 kcal/mol
+-------------
+
+Interation 544
+-------------
+potential energy: -131.67754 kcal/mol
+-------------
+
+Interation 545
+-------------
+potential energy: -131.68012 kcal/mol
+-------------
+
+Interation 546
+-------------
+potential energy: -131.68268 kcal/mol
+-------------
+
+Interation 547
+-------------
+potential energy: -131.68523 kcal/mol
+-------------
+
+Interation 548
+-------------
+potential energy: -131.68777 kcal/mol
+-------------
+
+Interation 549
+-------------
+potential energy: -131.69029 kcal/mol
+-------------
+
+Interation 550
+-------------
+potential energy: -131.69279 kcal/mol
+-------------
+
+Interation 551
+-------------
+potential energy: -131.69529 kcal/mol
+-------------
+
+Interation 552
+-------------
+potential energy: -131.69777 kcal/mol
+-------------
+
+Interation 553
+-------------
+potential energy: -131.70024 kcal/mol
+-------------
+
+Interation 554
+-------------
+potential energy: -131.7027 kcal/mol
+-------------
+
+Interation 555
+-------------
+potential energy: -131.70515 kcal/mol
+-------------
+
+Interation 556
+-------------
+potential energy: -131.70759 kcal/mol
+-------------
+
+Interation 557
+-------------
+potential energy: -131.71002 kcal/mol
+-------------
+
+Interation 558
+-------------
+potential energy: -131.71244 kcal/mol
+-------------
+
+Interation 559
+-------------
+potential energy: -131.71485 kcal/mol
+-------------
+
+Interation 560
+-------------
+potential energy: -131.71726 kcal/mol
+-------------
+
+Interation 561
+-------------
+potential energy: -131.71965 kcal/mol
+-------------
+
+Interation 562
+-------------
+potential energy: -131.72203 kcal/mol
+-------------
+
+Interation 563
+-------------
+potential energy: -131.72441 kcal/mol
+-------------
+
+Interation 564
+-------------
+potential energy: -131.72678 kcal/mol
+-------------
+
+Interation 565
+-------------
+potential energy: -131.72914 kcal/mol
+-------------
+
+Interation 566
+-------------
+potential energy: -131.7315 kcal/mol
+-------------
+
+Interation 567
+-------------
+potential energy: -131.73385 kcal/mol
+-------------
+
+Interation 568
+-------------
+potential energy: -131.73619 kcal/mol
+-------------
+
+Interation 569
+-------------
+potential energy: -131.73852 kcal/mol
+-------------
+
+Interation 570
+-------------
+potential energy: -131.74084 kcal/mol
+-------------
+
+Interation 571
+-------------
+potential energy: -131.74316 kcal/mol
+-------------
+
+Interation 572
+-------------
+potential energy: -131.74547 kcal/mol
+-------------
+
+Interation 573
+-------------
+potential energy: -131.74778 kcal/mol
+-------------
+
+Interation 574
+-------------
+potential energy: -131.75008 kcal/mol
+-------------
+
+Interation 575
+-------------
+potential energy: -131.75237 kcal/mol
+-------------
+
+Interation 576
+-------------
+potential energy: -131.75466 kcal/mol
+-------------
+
+Interation 577
+-------------
+potential energy: -131.75695 kcal/mol
+-------------
+
+Interation 578
+-------------
+potential energy: -131.75922 kcal/mol
+-------------
+
+Interation 579
+-------------
+potential energy: -131.7615 kcal/mol
+-------------
+
+Interation 580
+-------------
+potential energy: -131.76376 kcal/mol
+-------------
+
+Interation 581
+-------------
+potential energy: -131.76603 kcal/mol
+-------------
+
+Interation 582
+-------------
+potential energy: -131.76829 kcal/mol
+-------------
+
+Interation 583
+-------------
+potential energy: -131.77054 kcal/mol
+-------------
+
+Interation 584
+-------------
+potential energy: -131.77279 kcal/mol
+-------------
+
+Interation 585
+-------------
+potential energy: -131.77504 kcal/mol
+-------------
+
+Interation 586
+-------------
+potential energy: -131.77729 kcal/mol
+-------------
+
+Interation 587
+-------------
+potential energy: -131.77953 kcal/mol
+-------------
+
+Interation 588
+-------------
+potential energy: -131.78178 kcal/mol
+-------------
+
+Interation 589
+-------------
+potential energy: -131.78402 kcal/mol
+-------------
+
+Interation 590
+-------------
+potential energy: -131.78625 kcal/mol
+-------------
+
+Interation 591
+-------------
+potential energy: -131.78849 kcal/mol
+-------------
+
+Interation 592
+-------------
+potential energy: -131.79073 kcal/mol
+-------------
+
+Interation 593
+-------------
+potential energy: -131.79297 kcal/mol
+-------------
+
+Interation 594
+-------------
+potential energy: -131.79521 kcal/mol
+-------------
+
+Interation 595
+-------------
+potential energy: -131.79744 kcal/mol
+-------------
+
+Interation 596
+-------------
+potential energy: -131.79968 kcal/mol
+-------------
+
+Interation 597
+-------------
+potential energy: -131.80193 kcal/mol
+-------------
+
+Interation 598
+-------------
+potential energy: -131.80417 kcal/mol
+-------------
+
+Interation 599
+-------------
+potential energy: -131.80642 kcal/mol
+-------------
+
+Interation 600
+-------------
+potential energy: -131.80867 kcal/mol
+-------------
+
+Interation 601
+-------------
+potential energy: -131.81092 kcal/mol
+-------------
+
+Interation 602
+-------------
+potential energy: -131.81318 kcal/mol
+-------------
+
+Interation 603
+-------------
+potential energy: -131.81545 kcal/mol
+-------------
+
+Interation 604
+-------------
+potential energy: -131.81772 kcal/mol
+-------------
+
+Interation 605
+-------------
+potential energy: -131.81999 kcal/mol
+-------------
+
+Interation 606
+-------------
+potential energy: -131.82227 kcal/mol
+-------------
+
+Interation 607
+-------------
+potential energy: -131.82456 kcal/mol
+-------------
+
+Interation 608
+-------------
+potential energy: -131.82686 kcal/mol
+-------------
+
+Interation 609
+-------------
+potential energy: -131.82917 kcal/mol
+-------------
+
+Interation 610
+-------------
+potential energy: -131.83148 kcal/mol
+-------------
+
+Interation 611
+-------------
+potential energy: -131.83381 kcal/mol
+-------------
+
+Interation 612
+-------------
+potential energy: -131.83614 kcal/mol
+-------------
+
+Interation 613
+-------------
+potential energy: -131.83849 kcal/mol
+-------------
+
+Interation 614
+-------------
+potential energy: -131.84085 kcal/mol
+-------------
+
+Interation 615
+-------------
+potential energy: -131.84322 kcal/mol
+-------------
+
+Interation 616
+-------------
+potential energy: -131.8456 kcal/mol
+-------------
+
+Interation 617
+-------------
+potential energy: -131.848 kcal/mol
+-------------
+
+Interation 618
+-------------
+potential energy: -131.85041 kcal/mol
+-------------
+
+Interation 619
+-------------
+potential energy: -131.85284 kcal/mol
+-------------
+
+Interation 620
+-------------
+potential energy: -131.85528 kcal/mol
+-------------
+
+Interation 621
+-------------
+potential energy: -131.85775 kcal/mol
+-------------
+
+Interation 622
+-------------
+potential energy: -131.86023 kcal/mol
+-------------
+
+Interation 623
+-------------
+potential energy: -131.86272 kcal/mol
+-------------
+
+Interation 624
+-------------
+potential energy: -131.86524 kcal/mol
+-------------
+
+Interation 625
+-------------
+potential energy: -131.86778 kcal/mol
+-------------
+
+Interation 626
+-------------
+potential energy: -131.87034 kcal/mol
+-------------
+
+Interation 627
+-------------
+potential energy: -131.87292 kcal/mol
+-------------
+
+Interation 628
+-------------
+potential energy: -131.87553 kcal/mol
+-------------
+
+Interation 629
+-------------
+potential energy: -131.87816 kcal/mol
+-------------
+
+Interation 630
+-------------
+potential energy: -131.88081 kcal/mol
+-------------
+
+Interation 631
+-------------
+potential energy: -131.8835 kcal/mol
+-------------
+
+Interation 632
+-------------
+potential energy: -131.88621 kcal/mol
+-------------
+
+Interation 633
+-------------
+potential energy: -131.88894 kcal/mol
+-------------
+
+Interation 634
+-------------
+potential energy: -131.89171 kcal/mol
+-------------
+
+Interation 635
+-------------
+potential energy: -131.89451 kcal/mol
+-------------
+
+Interation 636
+-------------
+potential energy: -131.89734 kcal/mol
+-------------
+
+Interation 637
+-------------
+potential energy: -131.9002 kcal/mol
+-------------
+
+Interation 638
+-------------
+potential energy: -131.9031 kcal/mol
+-------------
+
+Interation 639
+-------------
+potential energy: -131.90603 kcal/mol
+-------------
+
+Interation 640
+-------------
+potential energy: -131.909 kcal/mol
+-------------
+
+Interation 641
+-------------
+potential energy: -131.912 kcal/mol
+-------------
+
+Interation 642
+-------------
+potential energy: -131.91505 kcal/mol
+-------------
+
+Interation 643
+-------------
+potential energy: -131.91814 kcal/mol
+-------------
+
+Interation 644
+-------------
+potential energy: -131.92126 kcal/mol
+-------------
+
+Interation 645
+-------------
+potential energy: -131.92443 kcal/mol
+-------------
+
+Interation 646
+-------------
+potential energy: -131.92765 kcal/mol
+-------------
+
+Interation 647
+-------------
+potential energy: -131.9309 kcal/mol
+-------------
+
+Interation 648
+-------------
+potential energy: -131.93421 kcal/mol
+-------------
+
+Interation 649
+-------------
+potential energy: -131.93756 kcal/mol
+-------------
+
+Interation 650
+-------------
+potential energy: -131.94097 kcal/mol
+-------------
+
+Interation 651
+-------------
+potential energy: -131.94442 kcal/mol
+-------------
+
+Interation 652
+-------------
+potential energy: -131.94793 kcal/mol
+-------------
+
+Interation 653
+-------------
+potential energy: -131.95149 kcal/mol
+-------------
+
+Interation 654
+-------------
+potential energy: -131.9551 kcal/mol
+-------------
+
+Interation 655
+-------------
+potential energy: -131.95878 kcal/mol
+-------------
+
+Interation 656
+-------------
+potential energy: -131.96251 kcal/mol
+-------------
+
+Interation 657
+-------------
+potential energy: -131.9663 kcal/mol
+-------------
+
+Interation 658
+-------------
+potential energy: -131.97014 kcal/mol
+-------------
+
+Interation 659
+-------------
+potential energy: -131.97406 kcal/mol
+-------------
+
+Interation 660
+-------------
+potential energy: -131.97803 kcal/mol
+-------------
+
+Interation 661
+-------------
+potential energy: -131.98207 kcal/mol
+-------------
+
+Interation 662
+-------------
+potential energy: -131.98617 kcal/mol
+-------------
+
+Interation 663
+-------------
+potential energy: -131.99035 kcal/mol
+-------------
+
+Interation 664
+-------------
+potential energy: -131.99459 kcal/mol
+-------------
+
+Interation 665
+-------------
+potential energy: -131.9989 kcal/mol
+-------------
+
+Interation 666
+-------------
+potential energy: -132.00328 kcal/mol
+-------------
+
+Interation 667
+-------------
+potential energy: -132.00773 kcal/mol
+-------------
+
+Interation 668
+-------------
+potential energy: -132.01226 kcal/mol
+-------------
+
+Interation 669
+-------------
+potential energy: -132.01686 kcal/mol
+-------------
+
+Interation 670
+-------------
+potential energy: -132.02153 kcal/mol
+-------------
+
+Interation 671
+-------------
+potential energy: -132.02628 kcal/mol
+-------------
+
+Interation 672
+-------------
+potential energy: -132.03111 kcal/mol
+-------------
+
+Interation 673
+-------------
+potential energy: -132.03602 kcal/mol
+-------------
+
+Interation 674
+-------------
+potential energy: -132.041 kcal/mol
+-------------
+
+Interation 675
+-------------
+potential energy: -132.04606 kcal/mol
+-------------
+
+Interation 676
+-------------
+potential energy: -132.0512 kcal/mol
+-------------
+
+Interation 677
+-------------
+potential energy: -132.05642 kcal/mol
+-------------
+
+Interation 678
+-------------
+potential energy: -132.06172 kcal/mol
+-------------
+
+Interation 679
+-------------
+potential energy: -132.06711 kcal/mol
+-------------
+
+Interation 680
+-------------
+potential energy: -132.07257 kcal/mol
+-------------
+
+Interation 681
+-------------
+potential energy: -132.0781 kcal/mol
+-------------
+
+Interation 682
+-------------
+potential energy: -132.08372 kcal/mol
+-------------
+
+Interation 683
+-------------
+potential energy: -132.08942 kcal/mol
+-------------
+
+Interation 684
+-------------
+potential energy: -132.0952 kcal/mol
+-------------
+
+Interation 685
+-------------
+potential energy: -132.10106 kcal/mol
+-------------
+
+Interation 686
+-------------
+potential energy: -132.10699 kcal/mol
+-------------
+
+Interation 687
+-------------
+potential energy: -132.113 kcal/mol
+-------------
+
+Interation 688
+-------------
+potential energy: -132.11908 kcal/mol
+-------------
+
+Interation 689
+-------------
+potential energy: -132.12524 kcal/mol
+-------------
+
+Interation 690
+-------------
+potential energy: -132.13147 kcal/mol
+-------------
+
+Interation 691
+-------------
+potential energy: -132.13777 kcal/mol
+-------------
+
+Interation 692
+-------------
+potential energy: -132.14414 kcal/mol
+-------------
+
+Interation 693
+-------------
+potential energy: -132.15058 kcal/mol
+-------------
+
+Interation 694
+-------------
+potential energy: -132.15708 kcal/mol
+-------------
+
+Interation 695
+-------------
+potential energy: -132.16365 kcal/mol
+-------------
+
+Interation 696
+-------------
+potential energy: -132.17028 kcal/mol
+-------------
+
+Interation 697
+-------------
+potential energy: -132.17697 kcal/mol
+-------------
+
+Interation 698
+-------------
+potential energy: -132.18371 kcal/mol
+-------------
+
+Interation 699
+-------------
+potential energy: -132.19051 kcal/mol
+-------------
+
+Interation 700
+-------------
+potential energy: -132.19736 kcal/mol
+-------------
+
+Interation 701
+-------------
+potential energy: -132.20425 kcal/mol
+-------------
+
+Interation 702
+-------------
+potential energy: -132.2112 kcal/mol
+-------------
+
+Interation 703
+-------------
+potential energy: -132.21818 kcal/mol
+-------------
+
+Interation 704
+-------------
+potential energy: -132.22521 kcal/mol
+-------------
+
+Interation 705
+-------------
+potential energy: -132.23227 kcal/mol
+-------------
+
+Interation 706
+-------------
+potential energy: -132.23937 kcal/mol
+-------------
+
+Interation 707
+-------------
+potential energy: -132.2465 kcal/mol
+-------------
+
+Interation 708
+-------------
+potential energy: -132.25366 kcal/mol
+-------------
+
+Interation 709
+-------------
+potential energy: -132.26084 kcal/mol
+-------------
+
+Interation 710
+-------------
+potential energy: -132.26804 kcal/mol
+-------------
+
+Interation 711
+-------------
+potential energy: -132.27527 kcal/mol
+-------------
+
+Interation 712
+-------------
+potential energy: -132.28251 kcal/mol
+-------------
+
+Interation 713
+-------------
+potential energy: -132.28976 kcal/mol
+-------------
+
+Interation 714
+-------------
+potential energy: -132.29702 kcal/mol
+-------------
+
+Interation 715
+-------------
+potential energy: -132.30429 kcal/mol
+-------------
+
+Interation 716
+-------------
+potential energy: -132.31156 kcal/mol
+-------------
+
+Interation 717
+-------------
+potential energy: -132.31884 kcal/mol
+-------------
+
+Interation 718
+-------------
+potential energy: -132.32612 kcal/mol
+-------------
+
+Interation 719
+-------------
+potential energy: -132.33339 kcal/mol
+-------------
+
+Interation 720
+-------------
+potential energy: -132.34065 kcal/mol
+-------------
+
+Interation 721
+-------------
+potential energy: -132.34791 kcal/mol
+-------------
+
+Interation 722
+-------------
+potential energy: -132.35515 kcal/mol
+-------------
+
+Interation 723
+-------------
+potential energy: -132.36238 kcal/mol
+-------------
+
+Interation 724
+-------------
+potential energy: -132.3696 kcal/mol
+-------------
+
+Interation 725
+-------------
+potential energy: -132.3768 kcal/mol
+-------------
+
+Interation 726
+-------------
+potential energy: -132.38397 kcal/mol
+-------------
+
+Interation 727
+-------------
+potential energy: -132.39113 kcal/mol
+-------------
+
+Interation 728
+-------------
+potential energy: -132.39826 kcal/mol
+-------------
+
+Interation 729
+-------------
+potential energy: -132.40536 kcal/mol
+-------------
+
+Interation 730
+-------------
+potential energy: -132.41244 kcal/mol
+-------------
+
+Interation 731
+-------------
+potential energy: -132.41948 kcal/mol
+-------------
+
+Interation 732
+-------------
+potential energy: -132.42649 kcal/mol
+-------------
+
+Interation 733
+-------------
+potential energy: -132.43347 kcal/mol
+-------------
+
+Interation 734
+-------------
+potential energy: -132.44042 kcal/mol
+-------------
+
+Interation 735
+-------------
+potential energy: -132.44733 kcal/mol
+-------------
+
+Interation 736
+-------------
+potential energy: -132.4542 kcal/mol
+-------------
+
+Interation 737
+-------------
+potential energy: -132.46103 kcal/mol
+-------------
+
+Interation 738
+-------------
+potential energy: -132.46782 kcal/mol
+-------------
+
+Interation 739
+-------------
+potential energy: -132.47457 kcal/mol
+-------------
+
+Interation 740
+-------------
+potential energy: -132.48128 kcal/mol
+-------------
+
+Interation 741
+-------------
+potential energy: -132.48795 kcal/mol
+-------------
+
+Interation 742
+-------------
+potential energy: -132.49457 kcal/mol
+-------------
+
+Interation 743
+-------------
+potential energy: -132.50115 kcal/mol
+-------------
+
+Interation 744
+-------------
+potential energy: -132.50769 kcal/mol
+-------------
+
+Interation 745
+-------------
+potential energy: -132.51417 kcal/mol
+-------------
+
+Interation 746
+-------------
+potential energy: -132.52062 kcal/mol
+-------------
+
+Interation 747
+-------------
+potential energy: -132.52701 kcal/mol
+-------------
+
+Interation 748
+-------------
+potential energy: -132.53336 kcal/mol
+-------------
+
+Interation 749
+-------------
+potential energy: -132.53966 kcal/mol
+-------------
+
+Interation 750
+-------------
+potential energy: -132.54591 kcal/mol
+-------------
+
+Interation 751
+-------------
+potential energy: -132.55212 kcal/mol
+-------------
+
+Interation 752
+-------------
+potential energy: -132.55828 kcal/mol
+-------------
+
+Interation 753
+-------------
+potential energy: -132.56439 kcal/mol
+-------------
+
+Interation 754
+-------------
+potential energy: -132.57045 kcal/mol
+-------------
+
+Interation 755
+-------------
+potential energy: -132.57647 kcal/mol
+-------------
+
+Interation 756
+-------------
+potential energy: -132.58244 kcal/mol
+-------------
+
+Interation 757
+-------------
+potential energy: -132.58837 kcal/mol
+-------------
+
+Interation 758
+-------------
+potential energy: -132.59424 kcal/mol
+-------------
+
+Interation 759
+-------------
+potential energy: -132.60007 kcal/mol
+-------------
+
+Interation 760
+-------------
+potential energy: -132.60586 kcal/mol
+-------------
+
+Interation 761
+-------------
+potential energy: -132.6116 kcal/mol
+-------------
+
+Interation 762
+-------------
+potential energy: -132.6173 kcal/mol
+-------------
+
+Interation 763
+-------------
+potential energy: -132.62295 kcal/mol
+-------------
+
+Interation 764
+-------------
+potential energy: -132.62856 kcal/mol
+-------------
+
+Interation 765
+-------------
+potential energy: -132.63413 kcal/mol
+-------------
+
+Interation 766
+-------------
+potential energy: -132.63966 kcal/mol
+-------------
+
+Interation 767
+-------------
+potential energy: -132.64514 kcal/mol
+-------------
+
+Interation 768
+-------------
+potential energy: -132.65059 kcal/mol
+-------------
+
+Interation 769
+-------------
+potential energy: -132.656 kcal/mol
+-------------
+
+Interation 770
+-------------
+potential energy: -132.66137 kcal/mol
+-------------
+
+Interation 771
+-------------
+potential energy: -132.66671 kcal/mol
+-------------
+
+Interation 772
+-------------
+potential energy: -132.67201 kcal/mol
+-------------
+
+Interation 773
+-------------
+potential energy: -132.67727 kcal/mol
+-------------
+
+Interation 774
+-------------
+potential energy: -132.68251 kcal/mol
+-------------
+
+Interation 775
+-------------
+potential energy: -132.68771 kcal/mol
+-------------
+
+Interation 776
+-------------
+potential energy: -132.69288 kcal/mol
+-------------
+
+Interation 777
+-------------
+potential energy: -132.69803 kcal/mol
+-------------
+
+Interation 778
+-------------
+potential energy: -132.70315 kcal/mol
+-------------
+
+Interation 779
+-------------
+potential energy: -132.70825 kcal/mol
+-------------
+
+Interation 780
+-------------
+potential energy: -132.71333 kcal/mol
+-------------
+
+Interation 781
+-------------
+potential energy: -132.71838 kcal/mol
+-------------
+
+Interation 782
+-------------
+potential energy: -132.72342 kcal/mol
+-------------
+
+Interation 783
+-------------
+potential energy: -132.72844 kcal/mol
+-------------
+
+Interation 784
+-------------
+potential energy: -132.73345 kcal/mol
+-------------
+
+Interation 785
+-------------
+potential energy: -132.73845 kcal/mol
+-------------
+
+Interation 786
+-------------
+potential energy: -132.74345 kcal/mol
+-------------
+
+Interation 787
+-------------
+potential energy: -132.74844 kcal/mol
+-------------
+
+Interation 788
+-------------
+potential energy: -132.75343 kcal/mol
+-------------
+
+Interation 789
+-------------
+potential energy: -132.75842 kcal/mol
+-------------
+
+Interation 790
+-------------
+potential energy: -132.76341 kcal/mol
+-------------
+
+Interation 791
+-------------
+potential energy: -132.76842 kcal/mol
+-------------
+
+Interation 792
+-------------
+potential energy: -132.77344 kcal/mol
+-------------
+
+Interation 793
+-------------
+potential energy: -132.77848 kcal/mol
+-------------
+
+Interation 794
+-------------
+potential energy: -132.78354 kcal/mol
+-------------
+
+Interation 795
+-------------
+potential energy: -132.78863 kcal/mol
+-------------
+
+Interation 796
+-------------
+potential energy: -132.79375 kcal/mol
+-------------
+
+Interation 797
+-------------
+potential energy: -132.79891 kcal/mol
+-------------
+
+Interation 798
+-------------
+potential energy: -132.80411 kcal/mol
+-------------
+
+Interation 799
+-------------
+potential energy: -132.80936 kcal/mol
+-------------
+
+Interation 800
+-------------
+potential energy: -132.81467 kcal/mol
+-------------
+
+Interation 801
+-------------
+potential energy: -132.82004 kcal/mol
+-------------
+
+Interation 802
+-------------
+potential energy: -132.82548 kcal/mol
+-------------
+
+Interation 803
+-------------
+potential energy: -132.831 kcal/mol
+-------------
+
+Interation 804
+-------------
+potential energy: -132.8366 kcal/mol
+-------------
+
+Interation 805
+-------------
+potential energy: -132.8423 kcal/mol
+-------------
+
+Interation 806
+-------------
+potential energy: -132.84809 kcal/mol
+-------------
+
+Interation 807
+-------------
+potential energy: -132.85399 kcal/mol
+-------------
+
+Interation 808
+-------------
+potential energy: -132.86001 kcal/mol
+-------------
+
+Interation 809
+-------------
+potential energy: -132.86615 kcal/mol
+-------------
+
+Interation 810
+-------------
+potential energy: -132.87243 kcal/mol
+-------------
+
+Interation 811
+-------------
+potential energy: -132.87884 kcal/mol
+-------------
+
+Interation 812
+-------------
+potential energy: -132.8854 kcal/mol
+-------------
+
+Interation 813
+-------------
+potential energy: -132.8921 kcal/mol
+-------------
+
+Interation 814
+-------------
+potential energy: -132.89897 kcal/mol
+-------------
+
+Interation 815
+-------------
+potential energy: -132.90599 kcal/mol
+-------------
+
+Interation 816
+-------------
+potential energy: -132.91317 kcal/mol
+-------------
+
+Interation 817
+-------------
+potential energy: -132.92052 kcal/mol
+-------------
+
+Interation 818
+-------------
+potential energy: -132.92801 kcal/mol
+-------------
+
+Interation 819
+-------------
+potential energy: -132.93566 kcal/mol
+-------------
+
+Interation 820
+-------------
+potential energy: -132.94344 kcal/mol
+-------------
+
+Interation 821
+-------------
+potential energy: -132.95136 kcal/mol
+-------------
+
+Interation 822
+-------------
+potential energy: -132.95939 kcal/mol
+-------------
+
+Interation 823
+-------------
+potential energy: -132.96751 kcal/mol
+-------------
+
+Interation 824
+-------------
+potential energy: -132.97571 kcal/mol
+-------------
+
+Interation 825
+-------------
+potential energy: -132.98396 kcal/mol
+-------------
+
+Interation 826
+-------------
+potential energy: -132.99224 kcal/mol
+-------------
+
+Interation 827
+-------------
+potential energy: -133.00052 kcal/mol
+-------------
+
+Interation 828
+-------------
+potential energy: -133.00878 kcal/mol
+-------------
+
+Interation 829
+-------------
+potential energy: -133.01699 kcal/mol
+-------------
+
+Interation 830
+-------------
+potential energy: -133.02513 kcal/mol
+-------------
+
+Interation 831
+-------------
+potential energy: -133.03317 kcal/mol
+-------------
+
+Interation 832
+-------------
+potential energy: -133.04108 kcal/mol
+-------------
+
+Interation 833
+-------------
+potential energy: -133.04887 kcal/mol
+-------------
+
+Interation 834
+-------------
+potential energy: -133.05649 kcal/mol
+-------------
+
+Interation 835
+-------------
+potential energy: -133.06395 kcal/mol
+-------------
+
+Interation 836
+-------------
+potential energy: -133.07123 kcal/mol
+-------------
+
+Interation 837
+-------------
+potential energy: -133.07831 kcal/mol
+-------------
+
+Interation 838
+-------------
+potential energy: -133.08521 kcal/mol
+-------------
+
+Interation 839
+-------------
+potential energy: -133.0919 kcal/mol
+-------------
+
+Interation 840
+-------------
+potential energy: -133.0984 kcal/mol
+-------------
+
+Interation 841
+-------------
+potential energy: -133.10469 kcal/mol
+-------------
+
+Interation 842
+-------------
+potential energy: -133.11079 kcal/mol
+-------------
+
+Interation 843
+-------------
+potential energy: -133.1167 kcal/mol
+-------------
+
+Interation 844
+-------------
+potential energy: -133.12243 kcal/mol
+-------------
+
+Interation 845
+-------------
+potential energy: -133.12798 kcal/mol
+-------------
+
+Interation 846
+-------------
+potential energy: -133.13337 kcal/mol
+-------------
+
+Interation 847
+-------------
+potential energy: -133.13859 kcal/mol
+-------------
+
+Interation 848
+-------------
+potential energy: -133.14367 kcal/mol
+-------------
+
+Interation 849
+-------------
+potential energy: -133.14862 kcal/mol
+-------------
+
+Interation 850
+-------------
+potential energy: -133.15344 kcal/mol
+-------------
+
+Interation 851
+-------------
+potential energy: -133.15814 kcal/mol
+-------------
+
+Interation 852
+-------------
+potential energy: -133.16275 kcal/mol
+-------------
+
+Interation 853
+-------------
+potential energy: -133.16726 kcal/mol
+-------------
+
+Interation 854
+-------------
+potential energy: -133.17168 kcal/mol
+-------------
+
+Interation 855
+-------------
+potential energy: -133.17603 kcal/mol
+-------------
+
+Interation 856
+-------------
+potential energy: -133.18032 kcal/mol
+-------------
+
+Interation 857
+-------------
+potential energy: -133.18455 kcal/mol
+-------------
+
+Interation 858
+-------------
+potential energy: -133.18874 kcal/mol
+-------------
+
+Interation 859
+-------------
+potential energy: -133.19288 kcal/mol
+-------------
+
+Interation 860
+-------------
+potential energy: -133.19699 kcal/mol
+-------------
+
+Interation 861
+-------------
+potential energy: -133.20108 kcal/mol
+-------------
+
+Interation 862
+-------------
+potential energy: -133.20514 kcal/mol
+-------------
+
+Interation 863
+-------------
+potential energy: -133.20919 kcal/mol
+-------------
+
+Interation 864
+-------------
+potential energy: -133.21323 kcal/mol
+-------------
+
+Interation 865
+-------------
+potential energy: -133.21727 kcal/mol
+-------------
+
+Interation 866
+-------------
+potential energy: -133.22131 kcal/mol
+-------------
+
+Interation 867
+-------------
+potential energy: -133.22536 kcal/mol
+-------------
+
+Interation 868
+-------------
+potential energy: -133.22941 kcal/mol
+-------------
+
+Interation 869
+-------------
+potential energy: -133.23349 kcal/mol
+-------------
+
+Interation 870
+-------------
+potential energy: -133.23758 kcal/mol
+-------------
+
+Interation 871
+-------------
+potential energy: -133.2417 kcal/mol
+-------------
+
+Interation 872
+-------------
+potential energy: -133.24584 kcal/mol
+-------------
+
+Interation 873
+-------------
+potential energy: -133.25003 kcal/mol
+-------------
+
+Interation 874
+-------------
+potential energy: -133.25424 kcal/mol
+-------------
+
+Interation 875
+-------------
+potential energy: -133.25851 kcal/mol
+-------------
+
+Interation 876
+-------------
+potential energy: -133.26281 kcal/mol
+-------------
+
+Interation 877
+-------------
+potential energy: -133.26717 kcal/mol
+-------------
+
+Interation 878
+-------------
+potential energy: -133.27159 kcal/mol
+-------------
+
+Interation 879
+-------------
+potential energy: -133.27606 kcal/mol
+-------------
+
+Interation 880
+-------------
+potential energy: -133.2806 kcal/mol
+-------------
+
+Interation 881
+-------------
+potential energy: -133.28522 kcal/mol
+-------------
+
+Interation 882
+-------------
+potential energy: -133.2899 kcal/mol
+-------------
+
+Interation 883
+-------------
+potential energy: -133.29467 kcal/mol
+-------------
+
+Interation 884
+-------------
+potential energy: -133.29951 kcal/mol
+-------------
+
+Interation 885
+-------------
+potential energy: -133.30445 kcal/mol
+-------------
+
+Interation 886
+-------------
+potential energy: -133.30948 kcal/mol
+-------------
+
+Interation 887
+-------------
+potential energy: -133.31461 kcal/mol
+-------------
+
+Interation 888
+-------------
+potential energy: -133.31984 kcal/mol
+-------------
+
+Interation 889
+-------------
+potential energy: -133.32518 kcal/mol
+-------------
+
+Interation 890
+-------------
+potential energy: -133.33063 kcal/mol
+-------------
+
+Interation 891
+-------------
+potential energy: -133.3362 kcal/mol
+-------------
+
+Interation 892
+-------------
+potential energy: -133.34188 kcal/mol
+-------------
+
+Interation 893
+-------------
+potential energy: -133.34769 kcal/mol
+-------------
+
+Interation 894
+-------------
+potential energy: -133.35362 kcal/mol
+-------------
+
+Interation 895
+-------------
+potential energy: -133.35967 kcal/mol
+-------------
+
+Interation 896
+-------------
+potential energy: -133.36585 kcal/mol
+-------------
+
+Interation 897
+-------------
+potential energy: -133.37215 kcal/mol
+-------------
+
+Interation 898
+-------------
+potential energy: -133.37857 kcal/mol
+-------------
+
+Interation 899
+-------------
+potential energy: -133.38511 kcal/mol
+-------------
+
+Interation 900
+-------------
+potential energy: -133.39176 kcal/mol
+-------------
+
+Interation 901
+-------------
+potential energy: -133.39851 kcal/mol
+-------------
+
+Interation 902
+-------------
+potential energy: -133.40535 kcal/mol
+-------------
+
+Interation 903
+-------------
+potential energy: -133.41228 kcal/mol
+-------------
+
+Interation 904
+-------------
+potential energy: -133.41927 kcal/mol
+-------------
+
+Interation 905
+-------------
+potential energy: -133.4263 kcal/mol
+-------------
+
+Interation 906
+-------------
+potential energy: -133.43337 kcal/mol
+-------------
+
+Interation 907
+-------------
+potential energy: -133.44043 kcal/mol
+-------------
+
+Interation 908
+-------------
+potential energy: -133.44748 kcal/mol
+-------------
+
+Interation 909
+-------------
+potential energy: -133.45448 kcal/mol
+-------------
+
+Interation 910
+-------------
+potential energy: -133.46141 kcal/mol
+-------------
+
+Interation 911
+-------------
+potential energy: -133.46824 kcal/mol
+-------------
+
+Interation 912
+-------------
+potential energy: -133.47495 kcal/mol
+-------------
+
+Interation 913
+-------------
+potential energy: -133.48151 kcal/mol
+-------------
+
+Interation 914
+-------------
+potential energy: -133.48791 kcal/mol
+-------------
+
+Interation 915
+-------------
+potential energy: -133.49413 kcal/mol
+-------------
+
+Interation 916
+-------------
+potential energy: -133.50015 kcal/mol
+-------------
+
+Interation 917
+-------------
+potential energy: -133.50597 kcal/mol
+-------------
+
+Interation 918
+-------------
+potential energy: -133.51158 kcal/mol
+-------------
+
+Interation 919
+-------------
+potential energy: -133.51697 kcal/mol
+-------------
+
+Interation 920
+-------------
+potential energy: -133.52216 kcal/mol
+-------------
+
+Interation 921
+-------------
+potential energy: -133.52714 kcal/mol
+-------------
+
+Interation 922
+-------------
+potential energy: -133.53191 kcal/mol
+-------------
+
+Interation 923
+-------------
+potential energy: -133.5365 kcal/mol
+-------------
+
+Interation 924
+-------------
+potential energy: -133.5409 kcal/mol
+-------------
+
+Interation 925
+-------------
+potential energy: -133.54512 kcal/mol
+-------------
+
+Interation 926
+-------------
+potential energy: -133.54919 kcal/mol
+-------------
+
+Interation 927
+-------------
+potential energy: -133.55309 kcal/mol
+-------------
+
+Interation 928
+-------------
+potential energy: -133.55685 kcal/mol
+-------------
+
+Interation 929
+-------------
+potential energy: -133.56048 kcal/mol
+-------------
+
+Interation 930
+-------------
+potential energy: -133.56398 kcal/mol
+-------------
+
+Interation 931
+-------------
+potential energy: -133.56736 kcal/mol
+-------------
+
+Interation 932
+-------------
+potential energy: -133.57064 kcal/mol
+-------------
+
+Interation 933
+-------------
+potential energy: -133.57381 kcal/mol
+-------------
+
+Interation 934
+-------------
+potential energy: -133.57689 kcal/mol
+-------------
+
+Interation 935
+-------------
+potential energy: -133.57988 kcal/mol
+-------------
+
+Interation 936
+-------------
+potential energy: -133.5828 kcal/mol
+-------------
+
+Interation 937
+-------------
+potential energy: -133.58563 kcal/mol
+-------------
+
+Interation 938
+-------------
+potential energy: -133.5884 kcal/mol
+-------------
+
+Interation 939
+-------------
+potential energy: -133.59111 kcal/mol
+-------------
+
+Interation 940
+-------------
+potential energy: -133.59376 kcal/mol
+-------------
+
+Interation 941
+-------------
+potential energy: -133.59635 kcal/mol
+-------------
+
+Interation 942
+-------------
+potential energy: -133.5989 kcal/mol
+-------------
+
+Interation 943
+-------------
+potential energy: -133.6014 kcal/mol
+-------------
+
+Interation 944
+-------------
+potential energy: -133.60385 kcal/mol
+-------------
+
+Interation 945
+-------------
+potential energy: -133.60627 kcal/mol
+-------------
+
+Interation 946
+-------------
+potential energy: -133.60865 kcal/mol
+-------------
+
+Interation 947
+-------------
+potential energy: -133.61099 kcal/mol
+-------------
+
+Interation 948
+-------------
+potential energy: -133.61331 kcal/mol
+-------------
+
+Interation 949
+-------------
+potential energy: -133.6156 kcal/mol
+-------------
+
+Interation 950
+-------------
+potential energy: -133.61786 kcal/mol
+-------------
+
+Interation 951
+-------------
+potential energy: -133.62011 kcal/mol
+-------------
+
+Interation 952
+-------------
+potential energy: -133.62233 kcal/mol
+-------------
+
+Interation 953
+-------------
+potential energy: -133.62453 kcal/mol
+-------------
+
+Interation 954
+-------------
+potential energy: -133.62672 kcal/mol
+-------------
+
+Interation 955
+-------------
+potential energy: -133.6289 kcal/mol
+-------------
+
+Interation 956
+-------------
+potential energy: -133.63106 kcal/mol
+-------------
+
+Interation 957
+-------------
+potential energy: -133.63322 kcal/mol
+-------------
+
+Interation 958
+-------------
+potential energy: -133.63537 kcal/mol
+-------------
+
+Interation 959
+-------------
+potential energy: -133.63751 kcal/mol
+-------------
+
+Interation 960
+-------------
+potential energy: -133.63965 kcal/mol
+-------------
+
+Interation 961
+-------------
+potential energy: -133.64178 kcal/mol
+-------------
+
+Interation 962
+-------------
+potential energy: -133.64392 kcal/mol
+-------------
+
+Interation 963
+-------------
+potential energy: -133.64606 kcal/mol
+-------------
+
+Interation 964
+-------------
+potential energy: -133.6482 kcal/mol
+-------------
+
+Interation 965
+-------------
+potential energy: -133.65035 kcal/mol
+-------------
+
+Interation 966
+-------------
+potential energy: -133.6525 kcal/mol
+-------------
+
+Interation 967
+-------------
+potential energy: -133.65466 kcal/mol
+-------------
+
+Interation 968
+-------------
+potential energy: -133.65683 kcal/mol
+-------------
+
+Interation 969
+-------------
+potential energy: -133.65901 kcal/mol
+-------------
+
+Interation 970
+-------------
+potential energy: -133.66121 kcal/mol
+-------------
+
+Interation 971
+-------------
+potential energy: -133.66342 kcal/mol
+-------------
+
+Interation 972
+-------------
+potential energy: -133.66565 kcal/mol
+-------------
+
+Interation 973
+-------------
+potential energy: -133.66789 kcal/mol
+-------------
+
+Interation 974
+-------------
+potential energy: -133.67016 kcal/mol
+-------------
+
+Interation 975
+-------------
+potential energy: -133.67245 kcal/mol
+-------------
+
+Interation 976
+-------------
+potential energy: -133.67476 kcal/mol
+-------------
+
+Interation 977
+-------------
+potential energy: -133.67709 kcal/mol
+-------------
+
+Interation 978
+-------------
+potential energy: -133.67945 kcal/mol
+-------------
+
+Interation 979
+-------------
+potential energy: -133.68184 kcal/mol
+-------------
+
+Interation 980
+-------------
+potential energy: -133.68427 kcal/mol
+-------------
+
+Interation 981
+-------------
+potential energy: -133.68672 kcal/mol
+-------------
+
+Interation 982
+-------------
+potential energy: -133.68921 kcal/mol
+-------------
+
+Interation 983
+-------------
+potential energy: -133.69173 kcal/mol
+-------------
+
+Interation 984
+-------------
+potential energy: -133.69429 kcal/mol
+-------------
+
+Interation 985
+-------------
+potential energy: -133.69689 kcal/mol
+-------------
+
+Interation 986
+-------------
+potential energy: -133.69953 kcal/mol
+-------------
+
+Interation 987
+-------------
+potential energy: -133.70221 kcal/mol
+-------------
+
+Interation 988
+-------------
+potential energy: -133.70494 kcal/mol
+-------------
+
+Interation 989
+-------------
+potential energy: -133.70772 kcal/mol
+-------------
+
+Interation 990
+-------------
+potential energy: -133.71054 kcal/mol
+-------------
+
+Interation 991
+-------------
+potential energy: -133.71341 kcal/mol
+-------------
+
+Interation 992
+-------------
+potential energy: -133.71634 kcal/mol
+-------------
+
+Interation 993
+-------------
+potential energy: -133.71932 kcal/mol
+-------------
+
+Interation 994
+-------------
+potential energy: -133.72235 kcal/mol
+-------------
+
+Interation 995
+-------------
+potential energy: -133.72544 kcal/mol
+-------------
+
+Interation 996
+-------------
+potential energy: -133.72858 kcal/mol
+-------------
+
+Interation 997
+-------------
+potential energy: -133.73178 kcal/mol
+-------------
+
+Interation 998
+-------------
+potential energy: -133.73503 kcal/mol
+-------------
+
+Interation 999
+-------------
+potential energy: -133.73835 kcal/mol
+-------------
+
+Interation 1000
+-------------
+potential energy: -133.74172 kcal/mol
+-------------
+
+Interation 1001
+-------------
+potential energy: -133.74514 kcal/mol
+-------------
+
+Interation 1002
+-------------
+potential energy: -133.74862 kcal/mol
+-------------
+
+Interation 1003
+-------------
+potential energy: -133.75216 kcal/mol
+-------------
+
+Interation 1004
+-------------
+potential energy: -133.75574 kcal/mol
+-------------
+
+Interation 1005
+-------------
+potential energy: -133.75937 kcal/mol
+-------------
+
+Interation 1006
+-------------
+potential energy: -133.76304 kcal/mol
+-------------
+
+Interation 1007
+-------------
+potential energy: -133.76674 kcal/mol
+-------------
+
+Interation 1008
+-------------
+potential energy: -133.77048 kcal/mol
+-------------
+
+Interation 1009
+-------------
+potential energy: -133.77424 kcal/mol
+-------------
+
+Interation 1010
+-------------
+potential energy: -133.77802 kcal/mol
+-------------
+
+Interation 1011
+-------------
+potential energy: -133.7818 kcal/mol
+-------------
+
+Interation 1012
+-------------
+potential energy: -133.78559 kcal/mol
+-------------
+
+Interation 1013
+-------------
+potential energy: -133.78936 kcal/mol
+-------------
+
+Interation 1014
+-------------
+potential energy: -133.79311 kcal/mol
+-------------
+
+Interation 1015
+-------------
+potential energy: -133.79682 kcal/mol
+-------------
+
+Interation 1016
+-------------
+potential energy: -133.80049 kcal/mol
+-------------
+
+Interation 1017
+-------------
+potential energy: -133.80411 kcal/mol
+-------------
+
+Interation 1018
+-------------
+potential energy: -133.80766 kcal/mol
+-------------
+
+Interation 1019
+-------------
+potential energy: -133.81114 kcal/mol
+-------------
+
+Interation 1020
+-------------
+potential energy: -133.81453 kcal/mol
+-------------
+
+Interation 1021
+-------------
+potential energy: -133.81783 kcal/mol
+-------------
+
+Interation 1022
+-------------
+potential energy: -133.82103 kcal/mol
+-------------
+
+Interation 1023
+-------------
+potential energy: -133.82413 kcal/mol
+-------------
+
+Interation 1024
+-------------
+potential energy: -133.82712 kcal/mol
+-------------
+
+Interation 1025
+-------------
+potential energy: -133.83001 kcal/mol
+-------------
+
+Interation 1026
+-------------
+potential energy: -133.83278 kcal/mol
+-------------
+
+Interation 1027
+-------------
+potential energy: -133.83545 kcal/mol
+-------------
+
+Interation 1028
+-------------
+potential energy: -133.83802 kcal/mol
+-------------
+
+Interation 1029
+-------------
+potential energy: -133.84048 kcal/mol
+-------------
+
+Interation 1030
+-------------
+potential energy: -133.84284 kcal/mol
+-------------
+
+Interation 1031
+-------------
+potential energy: -133.84511 kcal/mol
+-------------
+
+Interation 1032
+-------------
+potential energy: -133.84729 kcal/mol
+-------------
+
+Interation 1033
+-------------
+potential energy: -133.84938 kcal/mol
+-------------
+
+Interation 1034
+-------------
+potential energy: -133.85139 kcal/mol
+-------------
+
+Interation 1035
+-------------
+potential energy: -133.85333 kcal/mol
+-------------
+
+Interation 1036
+-------------
+potential energy: -133.85519 kcal/mol
+-------------
+
+Interation 1037
+-------------
+potential energy: -133.85698 kcal/mol
+-------------
+
+Interation 1038
+-------------
+potential energy: -133.85872 kcal/mol
+-------------
+
+Interation 1039
+-------------
+potential energy: -133.86039 kcal/mol
+-------------
+
+Interation 1040
+-------------
+potential energy: -133.86201 kcal/mol
+-------------
+
+Interation 1041
+-------------
+potential energy: -133.86357 kcal/mol
+-------------
+
+Interation 1042
+-------------
+potential energy: -133.86509 kcal/mol
+-------------
+
+Interation 1043
+-------------
+potential energy: -133.86657 kcal/mol
+-------------
+
+Interation 1044
+-------------
+potential energy: -133.868 kcal/mol
+-------------
+
+Interation 1045
+-------------
+potential energy: -133.8694 kcal/mol
+-------------
+
+Interation 1046
+-------------
+potential energy: -133.87075 kcal/mol
+-------------
+
+Interation 1047
+-------------
+potential energy: -133.87208 kcal/mol
+-------------
+
+Interation 1048
+-------------
+potential energy: -133.87337 kcal/mol
+-------------
+
+Interation 1049
+-------------
+potential energy: -133.87464 kcal/mol
+-------------
+
+Interation 1050
+-------------
+potential energy: -133.87587 kcal/mol
+-------------
+
+Interation 1051
+-------------
+potential energy: -133.87709 kcal/mol
+-------------
+
+Interation 1052
+-------------
+potential energy: -133.87827 kcal/mol
+-------------
+
+Interation 1053
+-------------
+potential energy: -133.87944 kcal/mol
+-------------
+
+Interation 1054
+-------------
+potential energy: -133.88058 kcal/mol
+-------------
+
+Interation 1055
+-------------
+potential energy: -133.8817 kcal/mol
+-------------
+
+Interation 1056
+-------------
+potential energy: -133.88281 kcal/mol
+-------------
+
+Interation 1057
+-------------
+potential energy: -133.88389 kcal/mol
+-------------
+
+Interation 1058
+-------------
+potential energy: -133.88496 kcal/mol
+-------------
+
+Interation 1059
+-------------
+potential energy: -133.88601 kcal/mol
+-------------
+
+Interation 1060
+-------------
+potential energy: -133.88705 kcal/mol
+-------------
+
+Interation 1061
+-------------
+potential energy: -133.88807 kcal/mol
+-------------
+
+Interation 1062
+-------------
+potential energy: -133.88908 kcal/mol
+-------------
+
+Interation 1063
+-------------
+potential energy: -133.89008 kcal/mol
+-------------
+
+Diff: -0.0009953881531714615
+Ending gradient descent as difference it is less than DELTA
