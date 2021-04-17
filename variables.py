@@ -15,8 +15,8 @@ ETA = 0.1 # learning rate
 # For trajectory generation
 # TODO : update to take it as input
 # TODO : update Mass of Argon
-ITERATIONS = 1000
-TIME_STEP = 4 # 4 femto seconds
+ITERATIONS = 300
+TIME_STEP = 4e-15 # 4 femto seconds
 MASS = 1 # mass of Argon
 
 #For Sampeling velocities

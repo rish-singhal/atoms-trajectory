@@ -26,9 +26,11 @@ def main():
 
     frames = generate_frames(final_config_vel)
 
+    print("Recieved Frames")
+
     plot_MSD(frames) # function to plot Mean Square Displacement
-    plot_van_hove(frames) # function to plot Van Hove Correlation Function
-    plot_vel_corr(frames) # function to plot Velocity Correlation Function
+    #plot_van_hove(frames) # function to plot Van Hove Correlation Function
+    #plot_vel_corr(frames) # function to plot Velocity Correlation Function
 
 if __name__ == "__main__":
     main()

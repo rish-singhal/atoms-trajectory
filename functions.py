@@ -80,7 +80,7 @@ def generate_frames(atoms):
     frames = []
     frames.append(Frame(atoms, 0))
     prev_frame = atoms
-    for i in range(const.ITERATIONS):
+    for num in range(const.ITERATIONS - 1):
         new_frame = prev_frame
         old_force_x = list()
         old_force_y = list()
@@ -117,7 +117,9 @@ def generate_frames(atoms):
             new_frame[i].z_vel = prev_frame[i].z_vel + prev_frame[i].z_vel*const.TIME_STEP\
                          + ((old_force_z[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
 
-        frames.append(Frame(new_frame, i+1))
+        frames.append(Frame(new_frame, num+1))
         prev_frame = new_frame
 
+    for frame in frames:
+        print(frame.time)
     return frames
