@@ -3,7 +3,7 @@
 
 ### TODO
 
-- [] Update constants
+- [ ] Update constants
 
 - [x] Add MSD, and other modules
 
