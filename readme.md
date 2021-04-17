@@ -1,4 +1,12 @@
 # PSCM - Final Project
 
-1. \alpha = 0.01, \epsilon = 0.0001
-2. Calculate Gradient descent for each atom one by one. 
+
+### TODO
+
+1. Update constants
+2. Add MSD, and other modules
+
+
+### Author
+
+[Rishabh Singhal](https://rish-singhal.github.io)

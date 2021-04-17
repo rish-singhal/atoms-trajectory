@@ -2,9 +2,7 @@
 import math
 import random
 import scipy.stats as stats
-
-## TODO: 
-## 1. update vel_data to box-muller algorithm
+import variables as const
 
 def generate_random_vector():
     """ to generate random unit vector """
@@ -36,13 +34,21 @@ def print_atoms(atoms, file=None):
 
 def sample_init_velocities(atoms):
     """ function to sample initial velocities from maxwell-boltzman distribution """
-    ### TODO: update to box-muller algorithm
-    vel_data = stats.maxwell.rvs(size=len(atoms))
-
-    for i, atom in enumerate(atoms):
+    vel_data = stats.maxwell.rvs(scale=((const.K*const.TEMP)/const.MASS)**0.5 , size=len(atoms) - 1)
+    total_vel_x = 0
+    total_vel_y = 0
+    total_vel_z = 0
+    print("velocity DATA:",vel_data)
+    for i, atom in enumerate(atoms[1:]):
         x_vec, y_vec, z_vec = generate_random_vector()
         atom.x_vel, atom.y_vel, atom.z_vel = vel_data[i]*x_vec,\
                          vel_data[i]*y_vec, vel_data[i]*z_vec
+        total_vel_x += atom.x_vel
+        total_vel_y += atom.y_vel
+        total_vel_z += atom.z_vel
+
+    atoms[0].x_vel,atoms[0].y_vel, atoms[0].z_vel = -total_vel_x, -total_vel_y, -total_vel_z
+
     return atoms
 
 def total_force(atom_num, atoms):

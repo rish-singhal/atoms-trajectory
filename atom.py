@@ -40,6 +40,23 @@ class Atom:
         self.y_cor = max(0.0, min(const.LEN, self.y_cor))
         self.z_cor = max(0.0, min(const.LEN, self.z_cor))
 
+    def apply_pbcondition2(self):
+        """ for changing position of the particle from left  to right """
+        if self.x_cor > const.LEN:
+            self.x_cor = self.x_cor - const.LEN
+        elif self.x_cor < 0:
+            self.x_cor = self.x_cor + const.LEN
+
+        if self.y_cor > const.LEN:
+            self.y_cor = self.y_cor - const.LEN
+        elif self.y_cor < 0:
+            self.y_cor = self.y_cor + const.LEN
+
+        if self.z_cor > const.LEN:
+            self.z_cor = self.z_cor - const.LEN
+        elif self.z_cor < 0:
+            self.z_cor = self.z_cor + const.LEN
+
     def __str__(self):
         return "Ar "+str(self.x_cor)+" "+str(self.y_cor)+" "\
         	    +str(self.z_cor)

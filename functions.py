@@ -1,6 +1,7 @@
 """ main functions """
 import random
 from atom import Atom
+from frame import Frame
 import variables as const
 import helper
 
@@ -66,7 +67,7 @@ def minimize_potential_energy(atoms):
 
         if abs(prev_potential_energy - new_potential_energy) < const.DELTA:
             print("Diff:", new_potential_energy - prev_potential_energy)
-            print("Ending gradient descent as difference it is less than DELTA")
+            print("Ending gradient descent as difference is less than DELTA =", const.DELTA)
             break
 
         # update iteration value, prev_potential_energy
@@ -77,9 +78,9 @@ def minimize_potential_energy(atoms):
 
 def generate_frames(atoms):
     frames = []
-    frames.append(atoms)
+    frames.append(Frame(atoms, 0))
     prev_frame = atoms
-    for _ in range(const.ITERATIONS):
+    for i in range(const.ITERATIONS):
         new_frame = prev_frame
         old_force_x = list()
         old_force_y = list()
@@ -97,9 +98,12 @@ def generate_frames(atoms):
             new_frame[i].z_cor = prev_frame[i].z_cor + prev_frame[i].z_vel*const.TIME_STEP\
                          + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2)
 
+            # applying periodic boundary condition
+            new_frame[i].apply_pbcondition2()
+
             old_force_x.append(total_force_x)
-            old_force_x.append(total_force_y)
-            old_force_x.append(total_force_z)
+            old_force_y.append(total_force_y)
+            old_force_z.append(total_force_z)
         
         for i, atom in enumerate(prev_frame):
             # initializing total force on ith atom
@@ -113,7 +117,7 @@ def generate_frames(atoms):
             new_frame[i].z_vel = prev_frame[i].z_vel + prev_frame[i].z_vel*const.TIME_STEP\
                          + ((old_force_z[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
 
-        frames.append(new_frame)
+        frames.append(Frame(new_frame, i+1))
         prev_frame = new_frame
 
     return frames
