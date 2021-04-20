@@ -31,30 +31,30 @@ def plot_van_hove(list_frames):
 			for atom1 in frame1.atoms:
 				for atom2 in frame2.atoms:
 							if time_diff == 0:
-								r = round(math.sqrt(atom1.distance_sq(atom2)), 2)
+								r = math.sqrt(atom1.distance_sq(atom2))
 								if not mean_values_1.get(r):
-									mean_values_1[r] = 0
+									mean_values_1[r] = 0.0
 								mean_values_1[r] += 1 
 								size_n[time_diff] += 1
 
 							if time_diff == 30:
-								r = round(math.sqrt(atom1.distance_sq(atom2)), 2)
+								r = math.sqrt(atom1.distance_sq(atom2))
 								if not mean_values_30.get(r):
-									mean_values_30[r] = 0
+									mean_values_30[r] = 0.0
 								mean_values_30[r] += 1 
 								size_n[time_diff] += 1
 
 							if time_diff == 100:
-								r = round(math.sqrt(atom1.distance_sq(atom2)), 2)
+								r = math.sqrt(atom1.distance_sq(atom2))
 								if not mean_values_100.get(r):
-									mean_values_100[r] = 0
+									mean_values_100[r] = 0.0
 								mean_values_100[r] += 1 
 								size_n[time_diff] += 1
 
 							if time_diff == 250:
-								r = round(math.sqrt(atom1.distance_sq(atom2)), 2)
+								r = math.sqrt(atom1.distance_sq(atom2))
 								if not mean_values_250.get(r):
-									mean_values_250[r] = 0
+									mean_values_250[r] = 0.0
 								mean_values_250[r] += 1 
 								size_n[time_diff] += 1
 
@@ -99,5 +99,6 @@ def plot_van_hove(list_frames):
 	plt.plot(vhove_x_100, vhove_y_100, color = 'b')
 	plt.plot(vhove_x_250, vhove_y_250, color = 'y')
 
+	plt.title("Van Hove correlation")
 	plt.legend(["t = 0", "t = 30", "t = 100", "t = 250"])
 	plt.show()

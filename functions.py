@@ -4,6 +4,8 @@ from atom import Atom
 from frame import Frame
 import variables as const
 import helper
+import copy
+from copy import deepcopy
 
 def generate_config():
     """ generating initial configuration """
@@ -79,9 +81,13 @@ def minimize_potential_energy(atoms):
 def generate_frames(atoms):
     frames = []
     frames.append(Frame(atoms, 0))
-    prev_frame = atoms
+    prev_frame = copy.deepcopy(atoms)
+
+    # for atom in atoms:
+    #     print(atom.x_cor, atom.y_cor, atom.z_cor)
+
     for num in range(const.ITERATIONS - 1):
-        new_frame = prev_frame
+        new_frame = copy.deepcopy(prev_frame)
         old_force_x = list()
         old_force_y = list()
         old_force_z = list()
@@ -91,15 +97,20 @@ def generate_frames(atoms):
             total_force_x, total_force_y, total_force_z = helper.total_force(i, prev_frame)
 
             # update positions
+            #print(new_frame[i].x_cor, prev_frame[i].x_cor, "first")
             new_frame[i].x_cor = prev_frame[i].x_cor + prev_frame[i].x_vel*const.TIME_STEP\
                          + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2)
             new_frame[i].y_cor = prev_frame[i].y_cor + prev_frame[i].y_vel*const.TIME_STEP\
                          + (total_force_y/(2*const.MASS))*(const.TIME_STEP**2)
             new_frame[i].z_cor = prev_frame[i].z_cor + prev_frame[i].z_vel*const.TIME_STEP\
-                         + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2)
+                         + (total_force_z/(2*const.MASS))*(const.TIME_STEP**2)
 
+            
+            #print("diii", new_frame[i].x_cor, prev_frame[i].x_cor + prev_frame[i].z_vel*const.TIME_STEP + (total_force_x/(2*const.MASS))*(const.TIME_STEP**2))
             # applying periodic boundary condition
             new_frame[i].apply_pbcondition2()
+            #print(new_frame[i].x_cor, prev_frame[i].x_cor, "second")
+            print(new_frame[i].x_cor, prev_frame[i].x_cor, "frames")
 
             old_force_x.append(total_force_x)
             old_force_y.append(total_force_y)
@@ -112,14 +123,15 @@ def generate_frames(atoms):
             # update velocities
             new_frame[i].x_vel = prev_frame[i].x_vel +\
                          + ((old_force_x[i] + total_force_x)/(2*const.MASS))*(const.TIME_STEP)
-            new_frame[i].y_vel = prev_frame[i].y_vel + prev_frame[i].y_vel*const.TIME_STEP\
-                         + ((old_force_y[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
-            new_frame[i].z_vel = prev_frame[i].z_vel + prev_frame[i].z_vel*const.TIME_STEP\
+            new_frame[i].y_vel = prev_frame[i].y_vel +\
+                         + ((old_force_y[i] + total_force_y)/(2*const.MASS))*(const.TIME_STEP)
+            new_frame[i].z_vel = prev_frame[i].z_vel +\
                          + ((old_force_z[i] + total_force_z)/(2*const.MASS))*(const.TIME_STEP)
 
         frames.append(Frame(new_frame, num+1))
-        prev_frame = new_frame
+        prev_frame = copy.deepcopy(new_frame)
 
-    for frame in frames:
-        print(frame.time)
+    # for atom1, atom2 in zip(frames[0].atoms, frames[1].atoms):
+    #     print(atom1.x_cor, atom2.x_cor, "dii")
+
     return frames

@@ -20,8 +20,10 @@ class Atom:
     def pair_potent_energy(self, atom2):
         """ for calculating pair potential energy """
         distance = self.distance_sq(atom2)**0.5
-        return 4*const.EPSILON*((const.SIGMA/distance)**12\
+        return 4*0.238*((const.SIGMA/distance)**12\
             - (const.SIGMA/distance)**6)
+        # return 4*const.EPSILON*((const.SIGMA/distance)**12\
+        #     - (const.SIGMA/distance)**6)
 
     def pair_force(self, atom2):
         """ returns force vector between a pair """
@@ -29,8 +31,10 @@ class Atom:
         force_y = self.y_cor - atom2.y_cor
         force_z = self.z_cor - atom2.z_cor
         distance = self.distance_sq(atom2)**0.5
-        factor = (24*const.EPSILON/(distance**2))*(2*((const.SIGMA\
-            /distance)**12) - (const.SIGMA/distance)**6)
+        if distance == 0.0:
+            distance = 10**-20
+        factor = ((24*const.EPSILON)*(2*((const.SIGMA\
+            /distance)**12) - (const.SIGMA/distance)**6))/distance**2
 
         return force_x*factor, force_y*factor, force_z*factor
 
@@ -42,20 +46,9 @@ class Atom:
 
     def apply_pbcondition2(self):
         """ for changing position of the particle from left  to right """
-        if self.x_cor > const.LEN:
-            self.x_cor = self.x_cor - const.LEN
-        elif self.x_cor < 0:
-            self.x_cor = self.x_cor + const.LEN
-
-        if self.y_cor > const.LEN:
-            self.y_cor = self.y_cor - const.LEN
-        elif self.y_cor < 0:
-            self.y_cor = self.y_cor + const.LEN
-
-        if self.z_cor > const.LEN:
-            self.z_cor = self.z_cor - const.LEN
-        elif self.z_cor < 0:
-            self.z_cor = self.z_cor + const.LEN
+        self.x_cor = self.x_cor - ((self.x_cor//const.LEN)*const.LEN)
+        self.y_cor = self.y_cor - ((self.y_cor//const.LEN)*const.LEN)
+        self.z_cor = self.z_cor - ((self.z_cor//const.LEN)*const.LEN)
 
     def __str__(self):
         return "Ar "+str(self.x_cor)+" "+str(self.y_cor)+" "\

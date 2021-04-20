@@ -17,15 +17,16 @@ def plot_vel_corr(list_frames):
 
             time_diff = frame2.time - frame1.time
             for atom1, atom2 in zip(frame1.atoms, frame2.atoms):
-                mean_values[time_diff] = mean_values.get(time_diff, 0)
-                mean_values[time_diff] += atom1.vel_x * atom2.vel_x +\
-	                               atom1.vel_y * atom2.vel_y + atom1.vel_z * atom2.vel_z
-                size_n[time_diff] = size_n(time_diff, 0) + 1
+                mean_values[time_diff] = mean_values.get(time_diff, float(0))
+                mean_values[time_diff] += atom1.x_vel * atom2.x_vel +\
+	                               atom1.y_vel * atom2.y_vel + atom1.z_vel * atom2.z_vel
+                size_n[time_diff] = size_n.get(time_diff, float(0)) + 1
 
     vcorr_list = []
 
     for key in mean_values:
         vcorr_list.append(mean_values[key]/size_n[key])
 
+    plt.title("Velocity correlation")
     plt.plot(vcorr_list, color = 'r')
     plt.show()

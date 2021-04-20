@@ -16,8 +16,9 @@ def plot_MSD(list_frames):
             
             time_diff = frame2.time - frame1.time
             for atom1, atom2 in zip(frame1.atoms, frame2.atoms):
-                mean_values[time_diff] = mean_values.get(time_diff, 0) + atom1.distance_sq(atom2)
-                size_n[time_diff] = size_n.get(time_diff, 0) + 1
+                #print("distance", atom1.x_cor, atom2.x_cor, (atom1.x_cor - atom2.x_cor)**2)
+                mean_values[time_diff] = mean_values.get(time_diff, float(0)) + atom1.distance_sq(atom2)
+                size_n[time_diff] = size_n.get(time_diff, float(0)) + 1
 
     print(len_frames)
     print(mean_values)
@@ -32,5 +33,6 @@ def plot_MSD(list_frames):
     #print("Diffusion Constant: " + str(value))
 
     print(msd_list)
+    plt.title("Mean Square Displacement")
     plt.plot(msd_list, color = 'r')
     plt.show()
