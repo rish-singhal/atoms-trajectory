@@ -34,11 +34,8 @@ Following steps are implemented:
 1. Command Line Interface
 2. The frames once generated for X number of iterations is saved as a file "frames_{ITERATIONS}.pkl"
 3. Van hove correlation matrix can also be saved as a file "vanhove_{ITERATIONS}.pkl"
-<<<<<<< HEAD
-=======
 
 ----
->>>>>>> 603e39d9cc50448ac99cc8db8597b3088e1254ba
 
 ### Instructions 
 
@@ -137,14 +134,9 @@ While as time-gap increases, the velocity vectors become highly disaligned compa
 
 ![](Plots/df_300.png)
 
-<<<<<<< HEAD
 The **intermediate scattering** function is the spatial Fourier transform of the van Hove function (which was calculated above), while the **dynamic structure factor** is basically temporal Fourier transform of intermediate scattering funtion.
 
 And in the graph it can be seen that there is a spike initially around k near to 0.
-
-=======
-----
->>>>>>> 603e39d9cc50448ac99cc8db8597b3088e1254ba
 
 ### Deadline
 
