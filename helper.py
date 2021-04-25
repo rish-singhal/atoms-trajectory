@@ -47,7 +47,7 @@ def sample_init_velocities(atoms):
         total_vel_y += atom.y_vel
         total_vel_z += atom.z_vel
 
-    atoms[0].x_vel,atoms[0].y_vel, atoms[0].z_vel = -total_vel_x, -total_vel_y, -total_vel_z
+    atoms[0].x_vel, atoms[0].y_vel, atoms[0].z_vel = -total_vel_x, -total_vel_y, -total_vel_z
 
     return atoms
 

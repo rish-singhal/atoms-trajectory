@@ -42,5 +42,5 @@ TIME_STEP = float(4*(10**-15)) # 4 femto seconds
 MASS = float(6.633359936*(10**-26)) # mass of Argon (in Kg)
 
 #For Sampeling velocities
-K = float(1.38*(10**-10)) # Boltzman Constant
+K = float(1.38*(10**-23)) # Boltzman Constant
 TEMP = 300 # Temperature = 300 Kelvin

@@ -78,7 +78,7 @@ def minimize_potential_energy(atoms):
 
     return atoms
 
-def generate_frames(atoms):
+def generate_frames(atoms, ITERATIONS):
     frames = []
     frames.append(Frame(atoms, 0))
     prev_frame = copy.deepcopy(atoms)
@@ -86,7 +86,7 @@ def generate_frames(atoms):
     # for atom in atoms:
     #     print(atom.x_cor, atom.y_cor, atom.z_cor)
 
-    for num in range(const.ITERATIONS - 1):
+    for num in range(ITERATIONS - 1):
         new_frame = copy.deepcopy(prev_frame)
         old_force_x = list()
         old_force_y = list()

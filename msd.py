@@ -2,12 +2,14 @@
 import matplotlib.pyplot as plt
 import atom
 import frame
+import numpy as np
+
 
 def plot_MSD(list_frames): 
     """ To calculate Mean Square Displacement """
-    mean_values = {}
-    size_n = {}
     len_frames = len(list_frames)
+    mean_values = np.zeros(len_frames)
+    size_n = np.zeros(len_frames)
 
     for frame1 in list_frames:
         for frame2 in list_frames:
@@ -17,22 +19,18 @@ def plot_MSD(list_frames):
             time_diff = frame2.time - frame1.time
             for atom1, atom2 in zip(frame1.atoms, frame2.atoms):
                 #print("distance", atom1.x_cor, atom2.x_cor, (atom1.x_cor - atom2.x_cor)**2)
-                mean_values[time_diff] = mean_values.get(time_diff, float(0)) + atom1.distance_sq(atom2)
-                size_n[time_diff] = size_n.get(time_diff, float(0)) + 1
+                mean_values[time_diff] += atom1.distance_sq(atom2)
+                size_n[time_diff] += 1
 
-    print(len_frames)
-    print(mean_values)
-    msd_list = []
-
-    for key in mean_values:
-        msd_list.append(mean_values[key]/size_n[key])
+    np.seterr(divide='ignore', invalid='ignore')
+    msd_list = np.divide(mean_values, size_n)
 
     # Diffusion Constant
     #value = (msd_list[::-1] - msd_list[::-50])/(50.0*6)
 
     #print("Diffusion Constant: " + str(value))
 
-    print(msd_list)
+    #print(msd_list)
     plt.title("Mean Square Displacement")
     plt.plot(msd_list, color = 'r')
     plt.show()
