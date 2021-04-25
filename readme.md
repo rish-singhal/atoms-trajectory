@@ -92,23 +92,23 @@ TEMP = 300 # Temperature = 300 Kelvin
 
 #### Pair Distance Bar Graph
 
-![](plots/rij_300.png)
+![](Plots/rij_300.png)
 
 #### Mean Square Displacement
 
-![](plots/msd_300.png)
+![](Plots/msd_300.png)
 
 #### Van Hove Correlation
 
-![](plots/vanhove_300.png)
+![](Plots/vanhove_300.png)
 
 #### Velocity Correlation
 
-![](plots/vel_300.png)
+![](Plots/vel_300.png)
 
 #### Dynamic Structure Factor
 
-![](plots/df_300.png)
+![](Plots/df_300.png)
 
 
 ### Deadline
