@@ -1,12 +1,16 @@
 # PSCM - Final Project
 
-[Web Version](https://rish-singhal.github.io/atoms-trajectory/)
+[Documentation](https://rish-singhal.github.io/atoms-trajectory/)
+
+----
 
 ### Technologies Used
 
 **Language:** Python          
 
 **Modules:** numpy, matplotlib, pickle, copy, tqdm
+
+----
 
 ### Description
 
@@ -23,13 +27,15 @@ Following steps are implemented:
 	- Dynamic Structure Factor
 	- Distance Frequency Graph
 
+----
+
 ### Features
 
 1. Command Line Interface
 2. The frames once generated for X number of iterations is saved as a file "frames_{ITERATIONS}.pkl"
 3. Van hove correlation matrix can also be saved as a file "vanhove_{ITERATIONS}.pkl"
-4. 
 
+----
 
 ### Instructions 
 
@@ -45,6 +51,8 @@ After this a command line interface will be available, showing this
 >> help
 ```
 Execute "help" function for the functions which can be called in the program.
+
+----
 
 ### HELP
 
@@ -63,7 +71,7 @@ plot df --->            |Plot Dynamic Factor
 exit ---->              |EXIT
 ```
 
-
+----
 
 ### Constants
 
@@ -88,6 +96,8 @@ K = 1.38e-10 # Boltzman Constant
 TEMP = 300 # Temperature = 300 Kelvin
 ```
 
+----
+
 ### Sample Plots for 300 ITERATIONS
 
 #### Pair Distance Bar Graph
@@ -110,11 +120,14 @@ TEMP = 300 # Temperature = 300 Kelvin
 
 ![](Plots/df_300.png)
 
+----
 
 ### Deadline
 
 **Phase-1**: 20th April 2021        
 **Final**  : 25th April 2021
+
+----
 
 ### Author
 
