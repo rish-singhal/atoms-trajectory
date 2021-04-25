@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import atom
 import frame
 import numpy as np
-
+from tqdm import tqdm
 
 def plot_MSD(list_frames): 
     """ To calculate Mean Square Displacement """
@@ -11,7 +11,7 @@ def plot_MSD(list_frames):
     mean_values = np.zeros(len_frames)
     size_n = np.zeros(len_frames)
 
-    for frame1 in list_frames:
+    for frame1 in tqdm(list_frames):
         for frame2 in list_frames:
             if frame2.time <= frame1.time:
                 continue

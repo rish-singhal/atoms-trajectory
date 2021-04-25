@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import math
 import numpy as np
+from tqdm import tqdm
 
 def plot_van_hove(list_frames):
 	""" function to plot van hove correlation """
@@ -12,12 +13,9 @@ def plot_van_hove(list_frames):
 	mean_values = np.zeros((max_time_diff, 40))
 
 	# To calculate Van Hove Displacement Graph
-	for frame1 in list_frames:
-		for frame2 in list_frames:
-			if frame2.time < frame1.time:
-				continue
-
-			time_diff = frame2.time - frame1.time
+	for frame1 in tqdm(list_frames):
+		for time_diff in range(max_time_diff - frame1.time):
+			frame2 = list_frames[frame1.time + time_diff]
 
 			for atom1 in frame1.atoms:
 				for atom2 in frame2.atoms:
@@ -26,15 +24,24 @@ def plot_van_hove(list_frames):
 
 	van_hove = mean_values/mean_values.sum(axis=1)[:,None]
 
+	if max_time_diff < 250:
+		plt.plot(van_hove[0], color = 'r')
+		plt.plot(van_hove[10], color = 'g')
+		plt.plot(van_hove[20], color = 'y')
+		plt.plot(van_hove[40], color = 'b')
 
+		plt.title("Van Hove correlation")
+		plt.legend(["t = 0", "t = 10", "t = 20", "t = 40"])
+		plt.show()
 
-	plt.plot(van_hove[0], color = 'r')
-	plt.plot(van_hove[30], color = 'g')
-	plt.plot(van_hove[100], color = 'y')
-	plt.plot(van_hove[250], color = 'b')
+	elif max_time_diff >= 250:
+		plt.plot(van_hove[0], color = 'r')
+		plt.plot(van_hove[50], color = 'g')
+		plt.plot(van_hove[100], color = 'y')
+		plt.plot(van_hove[200], color = 'b')
 
-	plt.title("Van Hove correlation")
-	plt.legend(["t = 0", "t = 30", "t = 100", "t = 250"])
-	plt.show()
+		plt.title("Van Hove correlation")
+		plt.legend(["t = 0", "t = 50", "t = 100", "t = 200"])
+		plt.show()
 
 	return van_hove

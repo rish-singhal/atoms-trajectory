@@ -2,6 +2,8 @@
 import math
 import random
 import scipy.stats as stats
+import matplotlib.pyplot as plt
+import numpy as np
 import variables as const
 
 def generate_random_vector():
@@ -64,3 +66,14 @@ def total_force(atom_num, atoms):
         total_force_z += force_z
     
     return total_force_x, total_force_y, total_force_z
+
+def plot_rij(atoms):
+    dist = np.zeros(40)
+    for i in range(len(atoms)):
+        for j in range(i):
+            r = int(round((atoms[i].distance_sq(atoms[j])**0.5)*(10**10), 0))
+            dist[r] += 1
+
+    plt.bar(range(40), dist, color = 'r')
+    plt.title("Histogram for r_ij: dist (10 Angrstom) vs frequency of pairs")
+    plt.show()
