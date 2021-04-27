@@ -4,6 +4,16 @@
 
 ----
 
+### Install requirements.txt
+
+Use following command:
+
+```bash
+pip3 install requirements.txt
+```
+
+---
+
 ### Automated Script Instruction for 300 ITERATIONS
 
 Run the following command:
