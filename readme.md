@@ -4,6 +4,21 @@
 
 ----
 
+### Automated Script Instruction for 300 ITERATIONS
+
+Run the following command:
+
+```bash
+python3 main.py
+```
+then you will be prompted by a command line interface, type "run" i.e.
+
+```bash
+>> run
+```
+
+This will execute the complete code for ITERATIONS = 300, while for the van hove plot as it takes time to generate van_hove correlation values, the code uses backup file (generated before).
+
 ### Technologies Used
 
 **Language:** Python          

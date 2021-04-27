@@ -22,9 +22,50 @@ def main():
         print(">> ", end="")
 
         inp = input()
-
         
-        if inp == "help":
+        if inp == "run":
+            ITERATIONS = 300
+            init_config = generate_config() # generate random config
+            
+            with open('init_config.txt', 'w') as f:
+                # printing inital configuration
+                print("Initial Configuration:\n-------------\n", file=f)
+                helper.print_atoms(deepcopy(init_config), file=f)
+            
+            # plot_histogram(init_config)
+
+            final_config = minimize_potential_energy(deepcopy(init_config))
+
+            with open('min_config.txt', 'w') as f:
+                # printing inital configuration
+                print("Configuration after minimizing potential energy:\n-------------\n", file=f)
+                helper.print_atoms(deepcopy(final_config), file=f)
+
+            final_config_vel = helper.sample_init_velocities(deepcopy(final_config))
+
+            frames = generate_frames(deepcopy(final_config_vel), ITERATIONS)
+
+            print("Recieved Frames")
+
+            with open('frames_'+str(ITERATIONS) +'.pkl', 'wb') as f:
+                pickle.dump(frames, f)
+
+            helper.plot_rij(init_config)
+
+            try:
+                with open('van_hove_300.pkl', 'rb') as f:
+                    van_hove = pickle.load(f)
+            except:
+                print("File does not exist.")
+                continue
+
+            plot_MSD(frames)
+            plot_vel_corr(frames)
+            plot_van_hove(frames, van_hove_pkl = van_hove)
+            plot_dynamic_factor(van_hove)
+
+        elif inp == "help":
+            print("run: For running complete script.")
             print("ls: Print the file names in the current directory")
             print("gen ITERATIONS: Generate ITERATIONS and save in file")
             print("load INPUT_FILE: Provide Input File")
@@ -145,9 +186,6 @@ def main():
     # # function to plot Mean Square Displacement
     # # function to plot Van Hove Correlation Function
     #plot_vel_corr(frames) # function to plot Velocity Correlation Function
-    
-
-    
 
 if __name__ == "__main__":
     main()
